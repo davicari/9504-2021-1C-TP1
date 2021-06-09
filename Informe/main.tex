@@ -61,11 +61,11 @@
 	\vspace*{30mm}
 
 	\begin{center}
-	    \includegraphics[scale=1.2]{Logo_Fiuba2.png}\\
+	    \includegraphics[scale=1.2]{../Images/Logo_Fiuba2.png}\\
 		\huge{\textsc{Universidad de Buenos Aires}}\\
 		\huge{\textsc{Facultad de Ingeniería}}\\
 		\vspace*{5mm}
-		\large{Año 2020 - 2.\textsuperscript{do} cuatrimestre}
+		\large{Año 2021 - 1.\textsuperscript{er} cuatrimestre}
 	\end{center}
 
 	\vspace*{15mm}
@@ -104,7 +104,7 @@
 	
 	\end{large}
 	
-	\hspace{15mm} \textsc{Fecha de entrega:} 12/06/2021  	\hspace{15mm} \= \+
+	\hspace{15mm} \textsc{Fecha de entrega:} 12/06/2021  	\hspace{15mm} 
 	
 \end{titlepage}
 
@@ -116,7 +116,7 @@
 
 La altura de las mareas se puede modelar utilizando una sumatoria de componentes armónicas de acuerdo a la siguiente ecuación:
 
-\begin{equation}\label{eq_1}
+\begin{equation}\label{eqn:eq_1}
 \begin{split}
 altura = a_0 + \Big[\sum_{k=1}^{n} a_k  cos(\omega_k t + \Phi_k)\Big] 
 \end{split}
@@ -129,7 +129,7 @@ $n$: número de componentes armónicas consideradas\\
 $\omega_k$: frecuencia angular de la componente armónica k-ésima\\
 $\phi_k$: fase de la componente armónica k-ésima\\
 
-Los parámetros de la ecuación \ref{eq_1} se calculan a partir de la serie temporal de datos obtenida por mareógrafos en los años anteriores, conocida como marea astronómica. Por lo general los responsables de la toma de datos de los mareógrafos son organismos que dependen de los gobiernos.\\
+Los parámetros de la ecuación \ref*{eqn:eq_1} se calculan a partir de la serie temporal de datos obtenida por mareógrafos en los años anteriores, conocida como marea astronómica. Por lo general los responsables de la toma de datos de los mareógrafos son organismos que dependen de los gobiernos.\\
 Históricamente se realizaba una publicación llamada anuario de mareas y en ocasiones también se publicaban las últimas constantes armónicas obtenidas en los puertos principales.\\
 Actualmente parte de la información es de acceso público a través de páginas web. Por ejemplo, en Argentina, el organismo responsable es el Servicio de Hidrografía Naval. \url{http://www.hidro.gov.ar}. Cada puerto tiene asociada una tabla de mareas y en ocasiones hay que realizar correcciones debido a la influencia de los factores meteorológicos.\\
 \\
@@ -157,11 +157,10 @@ Para cumplir adecuadamente el objetivo propuesto se sugiere se realicen los sigu
         \item
         los datos de marzo y abril;
     \end{enumerate}
-    \\
     Comparen (y relacionen, si les parece que es posible) los valores obtenidos en los componentes armónicos.
     \item
     Suponga ahora que se desea realizar predicciones diarias de las horas y alturas de las pleamares y bajamares utilizando únicamente una sola componente armónica de acuerdo a la siguiente ecuación:
-    \begin{equation}\label{eq_2}
+    \begin{equation}\label{eqn:eq_2}
         \begin{split}
             altura = a_0 + a_1 cos(\omega_1 t + \phi_1)
         \end{split}
@@ -169,13 +168,13 @@ Para cumplir adecuadamente el objetivo propuesto se sugiere se realicen los sigu
     Indiquen como se modifican los parámetros $(a_0,\omega_1,\phi_1)$ si solo se desea predecir las pleamares y bajamares en el mes de enero y en el mes de marzo
     (Pueden complementar el análisis empleando 2 o hasta 3 componentes armónicas, si les parece necesario; justifiquen su elección, en ese caso).
     \item
-    Ahora vamos utilizar la ecuación \ref{eq_2} para predecir las mareas en los puertos de la costa Argentina.\\
-    Los datos se obtendrán de la página:\\
+    Ahora vamos utilizar la ecuación \ref{eqn:eq_2} para predecir las mareas en los puertos de la costa Argentina.
+    Los datos se obtendrán de la página:
     \url{http://www.hidro.gov.ar/oceanografia/Tmareas/Form_Tmareas.asp} seleccionelo de la lista de puertos patrones; y cada grupo elegirá un puerto diferente. [Publiquen en el foro del TP 1 su puerto para esta segunda parte, y verifique que no haya sido elegido por otro grupo].
     
-    Tomen los datos completos de marzo, abril y los primeros 21 días de mayo de este año. (Observe que los datos no son equiespaciados). Se aconseja que procesen los datos horarios y luego copien todo a un archivo de texto, para cargarlo con facilidad en Octave o Python.\\
-    Para poder utilizar el modelo lineal de cuadrados mínimos, primero hagan gráficos y estudien que valor de $\omega_1$ es adecuado utilizar -a partir de la inspección de los datos- y expliquen el criterio utilizado; luego por cuadrados mínimos lineales estime los parámetros $a_0$,$a_1$ y $\phi_1$.\\
-    También pueden optar por emplear el modelo de cuadrados mínimos no lineal.\\
+    Tomen los datos completos de marzo, abril y los primeros 21 días de mayo de este año. (Observe que los datos no son equiespaciados). Se aconseja que procesen los datos horarios y luego copien todo a un archivo de texto, para cargarlo con facilidad en Octave o Python.
+    Para poder utilizar el modelo lineal de cuadrados mínimos, primero hagan gráficos y estudien que valor de $\omega_1$ es adecuado utilizar -a partir de la inspección de los datos- y expliquen el criterio utilizado; luego por cuadrados mínimos lineales estime los parámetros $a_0$,$a_1$ y $\phi_1$.
+    También pueden optar por emplear el modelo de cuadrados mínimos no lineal.
     Hallen el ECM.\\
     
     \item
@@ -190,6 +189,48 @@ En este trabajo práctico desarrollaremos la metodología para procesar datos de
 Empezaremos por los desarrollos teóricos necesarios para probar que la Serie de Fourier ($SF$) minimiza el error de cuadrados mínimos de una función, y luego la relación entre los coeficientes de la Transformada Discreta de Fourier y la Serie Continua de Fourier. 
 
 \section{\underline{Desarrollo}}
+
+
+Partiendo de la ecuación \ref*{eq_1}, y aplicando la identidad trigonométrica $ \cos(\alpha+\beta) = \cos(\alpha)\cos(\beta) - \sin(\alpha)\sin(\beta) $:
+
+\begin{equation}\label{eqn:eq_3}
+    \begin{split}
+        altura(t) &= a_0 + \sum_{k=1}^{n} a_k \cos(\omega_k t + \phi_k) \\
+                  &= a_0 + \sum_{k=1}^{n} a_k \( \cos(\omega_k t)\cos(\phi_k) -  \sin(\omega_k t)\sin(\phi_k) \) \\
+                  &= a_0 + \sum_{k=1}^{n} \underbrace{a_k \cos(\phi_k)}_{A_k} \cos(\omega_k t) + \underbrace{ - a_k \sin(\phi_k)}_{B_k} \sin(\omega_k t) \\
+                  &= a_0 + \sum_{k=1}^{n} A_k \cos(\omega_k t)  + \sum_{k=1}^{n} B_k \sin(\omega_k t)
+    \end{split}    
+\end{equation}
+
+Donde los coeficientes $A_k$ y $B_k$ quedan caracterizados de la siguiente manera:
+\begin{equation}\label{eqn:eq_3_1}
+    \begin{split}
+        A_k &= a_k*cos(\phi_k)
+    \end{split}
+\end{equation}
+\begin{equation}\label{eqn:eq_3_2}
+    \begin{split}
+        B_k &= -a_k*sen(\phi_k)
+    \end{split}
+\end{equation}
+
+Los valores $a_k$ y $\phi_k$ son los coeficientes de la Transformada Rápida de Fourier (FFT), el valor $a_0$, que sería el valor medio, la altura media, se puede calcular utilizando el método de cuadrados mínimos, como la constante que minimiza el error cuadrático Medio.
+
+
+
+\begin{equation}\label{eq_4}
+    \begin{split}
+        EC = \parallel f(x) - \hat{f}(x) \parallel^2 = \sum_{i=1}^{n} \omega_k (f(x)-\hat{f}(x))^2
+    \end{split}
+\end{equation}
+
+Fundamentalmente, el método de los cuadrados mínimos, se trata de hallar una función $\hat{f}(x)$ que minimice el error cuadrático $EC$, partiendo de un conjunto de $n \in \mathbb{N}$ de valores $(x_i,y_i)$, donde consideramos $f(x_i) = y_i$, luego:
+
+
+
+
+
+
 
     
 \section{\underline{Resultados}}
