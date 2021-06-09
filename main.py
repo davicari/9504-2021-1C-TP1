@@ -4,11 +4,10 @@ from matplotlib import pyplot as plt
 
 
 
-def serie_fourier(t,indices,amplitudes,fases):
-    acumulador = 0
-    for k in indices[0]:
-        print(acumulador,k)
-        acumulador = amplitudes[k]*np.exp(2*np.pi*fases[k]* complex(0,1) * t) + acumulador
+def serie_fourier_altura(t,indices,amplitudes,fases,w_0):
+    acumulador=0
+    for k in indices:
+        acumulador = amplitudes[k]*np.cos(w_0*k * t +fases[k]) + acumulador
     return acumulador
 
 hora = 3600
@@ -48,14 +47,18 @@ filtro = np.partition(h_alturas_fft_normalizadas.flatten(),-n_armonicos_elegidos
 h_alturas_fft_filtrado = np.where(h_alturas_fft_normalizadas <  filtro, 0,h_alturas_fft_normalizadas)
 
 
-indices_elementos_filtrados = np.nonzero(h_alturas_fft_filtrado)
+indices_elementos_filtrados = np.nonzero(h_alturas_fft_filtrado)[0]
 
 print(indices_elementos_filtrados)
 
-sf_alturas = serie_fourier(t,indices_elementos_filtrados,h_alturas_fft_normalizadas,a_alturas_fft)
+sf_alturas = serie_fourier_altura(t,indices_elementos_filtrados,h_alturas_fft_normalizadas,a_alturas_fft,omega_0)
 
-plt.plot(t,sf_alturas,'r',t,alturas,'b')
+
+
+plt.plot(t,sf_alturas,'r^',t,alturas,'b-')
 plt.show()
+
+
 
 # print(filtro)
 # print(omega.size)
