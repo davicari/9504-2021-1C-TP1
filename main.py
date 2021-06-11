@@ -1,80 +1,158 @@
+import sys
+import getopt
 import numpy as np
 import pandas
-from matplotlib import pyplot as plt 
+from matplotlib import pyplot as plt
+from datetime import datetime
+import csv
 
 
+def read_file():
+    mareas = pandas.read_csv('CO-OPS_8410140_met-2019.csv')
+    alturas_totales = mareas['Verified (m)']
 
-def A_k(a_k,f_k):
-    return a_k*np.cos(f_k)
-def B_k(a_k,f_k):
-    return -a_k*np.sin(f_k)
+    alturas_semana_1_enero = alturas_totales[0:168]
+    alturas_semana_2_enero = alturas_totales[169:336]
+    alturas_ene_feb = alturas_totales[0:1416]
+    alturas_mar_abr = alturas_totales[1417:2880]
+    return [
+        alturas_totales,
+        alturas_semana_1_enero,
+        alturas_semana_2_enero,
+        alturas_ene_feb,
+        alturas_mar_abr
+    ]
 
-def serie_fourier_altura(t,indices,amplitudes,fases,w_0):
-    acumulador=0
+
+def store_fft_data(indices, absolutes, angles, output):
+    output.writerow(["Indice", "Abs", "Angle"])
+    for i in indices:
+        output.writerow([i, absolutes[i], angles[i]])
+
+
+def ak(a_k, f_k):
+    return a_k * np.cos(f_k)
+
+
+def bk(b_k, f_k):
+    return -b_k * np.sin(f_k)
+
+
+def serie_fourier_altura(t, indices, amplitudes, fases, w_0, output):
+    output.writerow(["k", "O_k", "Q_k", "A_k", "B_k"])
+    acc = 0
     for k in indices:
-        acumulador = A_k(amplitudes[k],fases[k])*np.cos(w_0*k * t ) + B_k(amplitudes[k],fases[k])*np.sin(w_0* k * t )  + acumulador
-    return acumulador
+        a_k = ak(amplitudes[k], fases[k])
+        b_k = bk(amplitudes[k], fases[k])
+        output.writerow([k, amplitudes[k], fases[k], a_k, b_k])
 
-hora = 1
-T = 365*24*hora
-deltaT = hora
-criterio = 0.05
+        acc = (a_k * np.cos(w_0 * k * t)) + (b_k * np.sin(w_0 * k * t)) + acc
 
-t = range(0,int(T/deltaT))
-omega_0 = (2*np.pi*deltaT)/T
-omega = omega_0 * np.array(t)
-freq = omega * 2*np.pi
+    return acc
 
 
-#cantidad de armonicos elegidos
-n_armonicos_elegidos = 11
-mareas = pandas.read_csv('CO-OPS_8410140_met-2019.csv')
+def procesar_rango(alturas, n_armonicos):
+    # open files
+    now = int(datetime.now().timestamp())
+    fft_file = open(f'resultados/fft_csv_file_{now}.csv', 'w')
+    sft_file = open(f'resultados/sft_csv_file_{now}.csv', 'w')
+    fft_writer = csv.writer(fft_file)
+    sft_writer = csv.writer(sft_file)
+
+    # Parametros
+    T = len(alturas)
+    t = range(0, int(T))
+    omega_0 = (2 * np.pi) / T
+
+    # Obtencion de la transformada
+    alturas_fft = np.fft.fft(alturas)
+    h_alturas_fft = np.abs(alturas_fft)
+    a_alturas_fft = np.angle(alturas_fft)
+    h_alturas_fft_normalizadas = (h_alturas_fft) / T
+
+    # Seleccion de los armonicos
+    maximos = np.flip(np.sort(h_alturas_fft_normalizadas))[0:n_armonicos]
+    h_alturas_fft_filtrados = np.where(
+        h_alturas_fft_normalizadas < np.min(maximos),
+        0,
+        h_alturas_fft_normalizadas)
+    indices_elementos_filtrados = np.nonzero(h_alturas_fft_filtrados)[0]
+
+    # Guardamos los datos de la corrida.
+    store_fft_data(
+        indices_elementos_filtrados,
+        h_alturas_fft,
+        a_alturas_fft,
+        fft_writer
+    )
+
+    # Calculo de las alturas.
+    sf_alturas = serie_fourier_altura(
+        t,
+        indices_elementos_filtrados,
+        h_alturas_fft_normalizadas,
+        a_alturas_fft,
+        omega_0,
+        sft_writer
+    )
+
+    # Error cuadratico medio.
+    ecm = np.mean((np.abs(alturas - sf_alturas)**2))
+    print("ECM: ", ecm)
+
+    # Dibujamos las alturas medidas y las alturas estimadas.
+    plt.plot(t, sf_alturas, 'r-', t, alturas, 'b--')
+    plt.show()
 
 
-
-alturas = mareas['Verified (m)']
-
-alturas_promedio = alturas.mean()
-
-alturas_fft = np.fft.fft(alturas) 
-h_alturas_fft = np.abs(alturas_fft)
-a_alturas_fft = np.angle(alturas_fft)
-#Normalizo las alturas usando el valor medio
-#h_alturas_fft_normalizadas = h_alturas_fft * (alturas_promedio/h_alturas_fft[0])
-h_alturas_fft_normalizadas = h_alturas_fft  * deltaT/T
-h_alturas_fft_media = np.mean(h_alturas_fft_normalizadas)
-h_alturas_fft_promedio = sum(abs(h_alturas_fft_normalizadas[1:]))/len(h_alturas_fft_normalizadas[1:])
-
+def usage():
+    print('\nUso:')
+    print('\tmain.py -p <P> -n <N>')
+    print('\tmain.py --punto <P> --armonicos <N>')
+    print('\nN = cantidad de armonicos (default: 15)')
+    print('P = punto del tp (default: el set completo)\n')
+    print('Puntos:')
+    print('\t1: Set completo')
+    print('\t2: Primera semana de enero')
+    print('\t3: Segunda semana de enero')
+    print('\t4: Enero y febrero')
+    print('\t5: Marzo y abril')
 
 
-filtro = criterio*np.amax(h_alturas_fft_normalizadas)# Este criterio es malo, prefiero elegir por el numero de armónicos mas altos. los 5 o 6 mas altos.
-print(criterio,filtro)
-# filtro = np.partition(h_alturas_fft_normalizadas.flatten(),-n_armonicos_elegidos)[n_armonicos_elegidos]
-# print(filtro)
-# print('test')
+def main(argv):
+    point = 0
+    n_armonicos = 15
+    try:
+        opts, args = getopt.getopt(argv, "hp:n:", ['punto=', 'armonicos='])
+    except getopt.GetoptError:
+        usage()
+        sys.exit(2)
+    for opt, arg in opts:
+        if opt == '-h':
+            usage()
+            sys.exit()
+        elif opt in ("-p", "--punto"):
+            try:
+                value = int(arg)
+                if ((value < 1) or (value > 5)):
+                    raise ValueError
+                else:
+                    point = value - 1
+            except ValueError:
+                print('-p tiene que ser un numero entre 1 y 5')
+                usage()
+                sys.exit(2)
+        elif opt in ("-n", "--armonicos"):
+            try:
+                n_armonicos = int(arg)
+            except ValueError:
+                print('-n tiene que ser un numero entero')
+                usage()
+                sys.exit(2)
 
-maximos = np.flip(np.sort(h_alturas_fft_normalizadas))[0:n_armonicos_elegidos]
-
-print("max",maximos)
-
-
-h_alturas_fft_filtrados = np.where(h_alturas_fft_normalizadas <  np.min(maximos), 0,h_alturas_fft_normalizadas)
+    ranges = read_file()
+    procesar_rango(ranges[point], n_armonicos)
 
 
-indices_elementos_filtrados = np.nonzero(h_alturas_fft_filtrados)[0]
-print(len(indices_elementos_filtrados),indices_elementos_filtrados)
-sf_alturas = serie_fourier_altura(t,indices_elementos_filtrados,h_alturas_fft_normalizadas,a_alturas_fft,omega_0)
-
-
-mse = np.mean((np.abs(alturas - sf_alturas)**2))
-print("ECM: ",mse)
-plt.plot(t,sf_alturas,'r-',t,alturas,'b--')
-plt.show()
-
-# print(filtro)
-# print(omega.size)
-# print(h_alturas_fft.size)
-# print(h_alturas_fft_filtrado)
-# print(h_alturas_fft_media,h_alturas_fft_promedio)
-# plt.plot(freq,h_alturas_fft_filtrado,'r',freq,np.full((omega.size,1),h_alturas_fft_media),'b')
-# plt.show()
+if __name__ == "__main__":
+    main(sys.argv[1:])
