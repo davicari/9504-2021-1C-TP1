@@ -64,19 +64,26 @@ def procesar_rango(alturas, n_armonicos):
     t = range(0, int(T))
     omega_0 = (2 * np.pi) / T
 
+    W = int(T/2)
+
     # Obtencion de la transformada
     alturas_fft = np.fft.fft(alturas)
     h_alturas_fft = np.abs(alturas_fft)
     a_alturas_fft = np.angle(alturas_fft)
-    h_alturas_fft_normalizadas = (h_alturas_fft) / T
+    h_alturas_fft_normalizadas = h_alturas_fft / W
+
+    # Normalizamos a parte el valor medio, dado que se repite en la muestra 
+    h_alturas_fft_normalizadas[0] = h_alturas_fft_normalizadas[0]/2
 
     # Seleccion de los armonicos
-    maximos = np.flip(np.sort(h_alturas_fft_normalizadas))[0:n_armonicos]
+    maximos = np.flip(np.sort(h_alturas_fft_normalizadas[0:W]))[0:n_armonicos]
     h_alturas_fft_filtrados = np.where(
-        h_alturas_fft_normalizadas < np.min(maximos),
+        h_alturas_fft_normalizadas[0:W] < np.min(maximos),
         0,
-        h_alturas_fft_normalizadas)
+        h_alturas_fft_normalizadas[0:W])
     indices_elementos_filtrados = np.nonzero(h_alturas_fft_filtrados)[0]
+
+    print(maximos, len(h_alturas_fft_filtrados))
 
     # Guardamos los datos de la corrida.
     store_fft_data(

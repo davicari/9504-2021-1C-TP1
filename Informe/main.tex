@@ -220,13 +220,19 @@ Los valores $a_k$ y $\phi_k$ son los coeficientes de la Transformada Rápida de 
 
 \begin{equation}\label{eq_4}
     \begin{split}
-        EC = \parallel f(x) - \hat{f}(x) \parallel^2 = \sum_{i=1}^{n} \omega_k (f(x)-\hat{f}(x))^2
+        EC = \parallel f(x) - \hat{f}(x) \parallel^2 = \sum_{i=1}^{n} \omega_k (f(x)-\hat{f_i}(x))^2
     \end{split}
 \end{equation}
 
 Fundamentalmente, el método de los cuadrados mínimos, se trata de hallar una función $\hat{f}(x)$ que minimice el error cuadrático $EC$, partiendo de un conjunto de $n \in \mathbb{N}$ de valores $(x_i,y_i)$, donde consideramos $f(x_i) = y_i$, luego:
 
-
+\begin{equation}\label{eq_4}
+    \begin{split}
+        \frac{\delta EC}{\delta \hat{f_i}} &= 0 \\
+        &= \frac{\delta \Big( \sum_{i=1}^{n} \omega_k (f(x_i)-\hat{f_i}(x_i))^2 \Big)}{\delta \hat{f_i(x_i)}}  \\
+        
+    \end{split}
+\end{equation}
 
 
 
