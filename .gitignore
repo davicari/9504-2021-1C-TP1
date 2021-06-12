@@ -1,1 +1,2 @@
-resultados/*.csv
+resultados/fft_*.csv
+resultados/sft_*.csv
