@@ -2,7 +2,7 @@ import numpy as np
 import pandas
 from matplotlib import pyplot as plt
 
-mareas = pandas.read_csv('madryn-marzo-2021.csv')
+mareas = pandas.read_csv('Mar-del-plata.csv')
 alturas = mareas['altura']
 
 T = len(alturas)
@@ -10,7 +10,7 @@ x = range(0, int(T))
 w_0 = 2*np.pi/T
 a_0 = np.mean(alturas)
 res = 0
-partials = []
+medidos = []
 
 
 def q1(t):
@@ -41,17 +41,16 @@ print(f'a_0 = {a_0}, T = {T}, c1 = {c1}, c2 = {c2}')
 
 
 def f(x):
-    res = a_0 + (c1 * np.cos(w_0 * x)) + (c2 * np.sin(w_0 * x))
-    return res
+    return a_0 + (c1 * np.cos(w_0 * x)) + (c2 * np.sin(w_0 * x))
 
 
-for index, altura in enumerate(alturas):
-    y_medido = f(index)
-    partials.append(y_medido)
+for i in x:
+    y_medido = f(i)
+    medidos.append(y_medido)
 
 
-plt.plot(x, alturas, 'r-', x, partials, 'b--')
+plt.plot(x, alturas, 'r-', x, medidos, 'b--')
 plt.show()
 
-ecm = np.mean(np.abs(partials - alturas)**2)
+ecm = np.mean(np.abs(medidos - alturas)**2)
 print('ECM', ecm)
