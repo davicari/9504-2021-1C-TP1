@@ -2,6 +2,11 @@ import numpy as np
 import pandas
 from matplotlib import pyplot as plt
 from datetime import datetime
+import csv
+
+fft_file = open('resultados/diff_minutes.csv', 'w')
+fft_writer = csv.writer(fft_file)
+fft_writer.writerow(['diferencia', 'acumulado'])
 
 mareas = pandas.read_csv('Mar-del-plata.csv')
 alturas = mareas['altura']
@@ -25,6 +30,7 @@ for index, f in enumerate(fechas):
         next_val = secs + minutes[index - 1]
         minutes.append(float(next_val))
         diffs.append(float(secs))
+        fft_writer.writerow([float(secs), float(next_val)])
 
 # a = np.matrix([[Q1, Q2], [Q3, Q4]])
 # b = np.array([Y1, Y2])
