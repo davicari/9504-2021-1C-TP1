@@ -11,9 +11,12 @@ fft_writer.writerow(['diferencia', 'acumulado'])
 mareas = pandas.read_csv('Mar-del-plata.csv')
 alturas = mareas['altura']
 fechas = mareas['fecha_hora']
-a_0 = np.mean(alturas)
 
-print(np.amax(alturas))
+v = (np.amax(np.abs(alturas)) - np.amin(np.abs(alturas))) / 2
+v2 = np.mean(alturas)
+
+a_0 = v
+
 alturas_2 = np.where(alturas < a_0, 0, alturas) - a_0
 
 diffs = []
@@ -48,10 +51,8 @@ for index, f in enumerate(fechas):
 
 # M * C = Y
 Y = alturas
-C = int(np.mean(diffs))
+C = 2*np.pi / a_0
 X = minutes
-
-print(f'alturas: {len(alturas_2)}; minutes: {len(minutes)}')
 
 
 def f_1(x):
@@ -75,8 +76,6 @@ b = np.array([Y1, Y2])
 
 c = np.linalg.solve(a, b)
 
-print(c)
-
 
 # c1 =  B * cos(D) => D = fi_1; B = a_1
 # c2 = -B * sin(D) => D = fi_1; B = a_1
@@ -90,9 +89,11 @@ for min in minutes:
     medidos.append(val)
 
 
+ecm = np.mean(np.abs(medidos - alturas_2)**2)
+print(f'Media utilizada: {a_0}')
+print('ECM', ecm)
+
+
 t = range(0, len(alturas))
 plt.plot(t, alturas_2, 'r-', t, medidos, 'g--')
 plt.show()
-
-# ecm = np.mean(np.abs(medidos - alturas)**2)
-# print('ECM', ecm)
