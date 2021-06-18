@@ -197,7 +197,7 @@ Partiendo de la ecuación \ref*{eq_1}, y aplicando la identidad trigonométrica 
 
 \begin{equation}\label{eqn:eq_3}
     \begin{split}
-        altura(t) &= a_0 + \sum_{k=1}^{n} a_k \cos(\omega_k t + \phi_k) \\
+        altura_n(t) &= a_0 + \sum_{k=1}^{n} a_k \cos(\omega_k t + \phi_k) \\
                   &= a_0 + \sum_{k=1}^{n} a_k  \cos(\omega_k t)\cos(\phi_k) -  \sin(\omega_k t)\sin(\phi_k)  \\
                   &= a_0 + \sum_{k=1}^{n} \underbrace{a_k \cos(\phi_k)}_{A_k} \cos(\omega_k t) + \underbrace{ - a_k \sin(\phi_k)}_{B_k} \sin(\omega_k t) \\
                   &= a_0 + \sum_{k=1}^{n} A_k \cos(\omega_k t)  + \sum_{k=1}^{n} B_k \sin(\omega_k t)
@@ -225,6 +225,15 @@ Como vemos a continuación. Estos desarrollos  se tomaron de \cite{ana1} capítu
         EC = \parallel f(x) - \hat{f}(x) \parallel^2 = \sum_{k=1}^{n} \omega_k (f(x_k)-\hat{f}(x_k))^2
     \end{split}
 \end{equation}
+Error Cuadrático Medio
+
+\begin{equation}\label{eq_4_2}
+    \begin{split}
+        ECM =  \frac{\sqrt{\parallel f(x) - \hat{f}(x) \parallel^2 = \sum_{k=1}^{n} \omega_k (f(x_k)-\hat{f}(x_k))^2}}{n}
+    \end{split}
+\end{equation}
+Para determinar cuantos armónicos fueron necesarios para recrear una serie que minimice el ECM, ordenamos de mayor a menor los coeficientes de la FFT y obteniendo las posiciones dentro del vector resultado, luego se toman los mayores $n$ armónicos y se arma la serie.
+Fuimos iterando y hallamos que a partir de pocos armónicos, relativos a la cantidad total, había un amesetamiento en la reduccion del ECM.
 
 Fundamentalmente, el método de los cuadrados mínimos, se trata de hallar una función $\hat{f}(x)$ que minimice el error cuadrático $EC$, partiendo de un conjunto
  de $n \in \mathbb{N}$ de valores $(x_i,y_i)$, donde consideramos $f(x_i) = y_i$, luego:
@@ -292,7 +301,7 @@ Para ello utilizamos la ecuación \ref{eqn:eq_3} para un armónico:
         altura_1(t) &= a_0 + a_1 \cos(\omega_1 t) + b_1 \sin(\omega_1 t)
     \end{split}
 \end{equation}
-Reescribimos la ecuación en función de la definicion de \ref
+Reescribimos la ecuación en función de la definicion de \ref{eq_5}:
 \begin{equation}\label{eq_13}
     \begin{split}
         altura_1(t) &= c_1 * \phi_1(t) + c_2 \phi_2(t) + c_3 \phi_3(t)
@@ -306,8 +315,26 @@ Donde:
         \phi_3(t) &= \sin(\omega_1 t)\\
     \end{split}
 \end{equation}
+Entonces debemos resolver el sistema usando las definiciones de las ecuaciones \ref{eq_10} y \ref{eq_11}
+\begin{equation}\label{eq_15}
+    \begin{bmatrix}
+        (\phi_1,\phi_1) & (\phi_1,\phi_2) & (\phi_1,\phi_3)\\
+        (\phi_2,\phi_1) & (\phi_2,\phi_2) & (\phi_2,\phi_3)\\
+        (\phi_3,\phi_1) & (\phi_3,\phi_2) & (\phi_3,\phi_3)
+    \end{bmatrix} * 
+    \begin{bmatrix}
+        c_1\\
+        c_2\\
+        c_3
+    \end{bmatrix} =
+    \begin{bmatrix}
+        (f,\phi_1)\\
+        (f,\phi_2)\\
+        (f,\phi_3)
+    \end{bmatrix}
+\end{equation}
 
-
+Esto resulta en un sistema lineal, que resolvemos utilizando python para obtener los valores de las constantes y utilizar el modelo deseado.
 
 
 
@@ -319,24 +346,8 @@ Donde:
 
     
 \section{\underline{Resultados}}
-\underline{Punto 1:}
-El único criterio utilizado fue los N mas grandes.
-Decidimos tomar 10 valores para realizar nuestra aproximación. Las frecuencias mas importantes son
-
-\begin{center}
-    [0  692  704  705  706 8030 8054 8055 8056 8068]
-\end{center}
-
-El ECM obtenido es: \textbf{0.3824055160066616}
 
 
-\underline{Punto 2:}
-Las frecuencias mas importantes son
-\begin{center}
-    [0  692  704  705  706 8054 8055 8056 8068]
-\end{center}
-
-El ECM obtenido es: \textbf{0.45391766236102676}
 
 
 \section{\underline{Conclusiones}}
