@@ -25,15 +25,17 @@ for fecha in fechas:
     W_samples = int(len(mediciones_alturas_fft))
     omega = np.arange(W_samples) * (2*np.pi/N_samples)
     freq = np.arange(W_samples) / N_samples
+    #Calculo para los  4 armónicos principales
     indices_armonicos = f.obtener_indices_armonicos(mediciones_alturas_fft,N_armonicos)
     serie_fourier_alturas = f.sf_altura(mediciones_alturas_fft,tiempo,indices_armonicos)
     ecm_n = f.ECM(serie_fourier_alturas,mediciones_alturas)
     print("Las frecuencias utilizadas son :",freq[indices_armonicos])
     print("El E.C.M para el rango de fechas de "+fecha["sFechaInicio"]+" hasta "+fecha["sFechaFin"]+" con "+str(N_armonicos)+" armónicos es: ",ecm_n)
+    #Calculo para los 3 armónicos principales
     indices_armonicos = f.obtener_indices_armonicos(mediciones_alturas_fft,N_armonicos-1)
     serie_fourier_alturas = f.sf_altura(mediciones_alturas_fft,tiempo,indices_armonicos)
     ecm_n = f.ECM(serie_fourier_alturas,mediciones_alturas)
     print("El E.C.M para el rango de fechas de "+fecha["sFechaInicio"]+" hasta "+fecha["sFechaFin"]+" con "+str(N_armonicos-1)+" armónicos es: ",ecm_n)
-
+    
 
 

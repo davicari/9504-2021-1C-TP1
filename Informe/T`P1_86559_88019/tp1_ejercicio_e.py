@@ -69,7 +69,8 @@ plt.show()
 """
 plt.plot(t_enero,aprox_enero,'b',t_marzo,aprox_marzo,'r')
 plt.yscale("linear")
-plt.show()
+plt.savefig(f.root_file+'/Images/aprox_enero_aprox_marzo.png', dpi=300, bbox_inches='tight')
+
 
 
 

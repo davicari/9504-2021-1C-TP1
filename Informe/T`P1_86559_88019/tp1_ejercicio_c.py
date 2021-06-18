@@ -5,7 +5,6 @@ import pandas as pd
 
 #El objetivo de este este ejercicio es obtener una descomposición armónica mediante la FFT, 
 #y obtener los coeficientes de fourier a partir de las N armónicos elegidos del ejercicio anterior
-#En este caso N_armonicos = 3
 N_armonicos = 3
 mediciones_alturas = f.leer_archivo_maine()['Verified (m)']
 N_samples = int(len(mediciones_alturas))
@@ -19,4 +18,5 @@ serie_fourier_alturas = f.sf_altura(mediciones_alturas_fft,tiempo,indices_armoni
 
 ecm_n = f.ECM(serie_fourier_alturas,mediciones_alturas)
 
-print("El E.C.M para 3 armónicos es: ",ecm_n)
+print("El E.C.M para "+str(N_armonicos)+" armónicos es: ",ecm_n)
+print("Las Frecuencias Usadas son: ", indices_armonicos/N_samples)

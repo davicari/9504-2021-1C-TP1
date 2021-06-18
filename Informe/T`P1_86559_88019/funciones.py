@@ -171,7 +171,7 @@ def plot_log(name,x,y,x_label,y_label,show = False):
     plt.yscale("log")
     plt.xlabel = x_label
     plt.ylabel = y_label
-    plt.savefig( root_file+'/plots/'+name+'.png', dpi=300, bbox_inches='tight')
+    plt.savefig( root_file+'/Images/'+name+'.png', dpi=300, bbox_inches='tight')
     if(show):
         plt.show()
     
@@ -180,7 +180,7 @@ def plot(name,x,y,x_label,y_label,show = False):
     plt.xlabel = x_label
     plt.ylabel = y_label
     plt.yscale("linear")
-    plt.savefig( root_file+'/plots/'+name+'.png', dpi=300, bbox_inches='tight')
+    plt.savefig( root_file+'/Images/'+name+'.png', dpi=300, bbox_inches='tight')
     if(show):
         plt.show()
 

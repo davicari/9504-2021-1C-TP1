@@ -1,0 +1,1 @@
+Ejecutar cada archivo del tipo tp1_ejercicio_*.py de forma individual, cada uno de los mismos usa la libreria de funciones funciones.py

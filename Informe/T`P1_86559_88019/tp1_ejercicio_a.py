@@ -19,7 +19,7 @@ serie_fourier_alturas = f.sf_altura(mediciones_alturas_fft,tiempo)
 f.plot_log("ejercicio_a_fft_log",freq,np.abs(mediciones_alturas_fft),"Frecuencia [1/H]","Amplitud [m]")
 
 #Comparamos el error cuadrático medio segun la cantidad de maximos de la fft que tomamos:
-numero_de_armonicos = 200
+numero_de_armonicos = 12
 pd_ecm_x_n = f.obtener_error_cuadratico_segun_numero_muestras(numero_de_armonicos,mediciones_alturas,mediciones_alturas_fft,'ecm_por_'+str(numero_de_armonicos)+'_armonicos.csv')
 
 f.plot("ejercicio_a_ecm_x_"+str(numero_de_armonicos)+"armonicos",np.arange(len(pd_ecm_x_n["ECM%"])),pd_ecm_x_n["ECM%"],"Numero de Armonicos","Error Cuadratico Medio Porcentual")

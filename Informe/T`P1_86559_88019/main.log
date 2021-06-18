@@ -1,0 +1,1288 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.6.3)  18 JUN 2021 19:19
+entering extended mode
+**c:/Users/dario/Documents/Facultad/Numerico/1C2021/TP1/Informe/entregable/main.tex
+(c:/Users/dario/Documents/Facultad/Numerico/1C2021/TP1/Informe/entregable/main.tex
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-05-15> ("C:\Program Files\MiKTeX 2.9\tex/latex/base\article.cls"
+Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
+("C:\Program Files\MiKTeX 2.9\tex/latex/base\size10.clo"
+File: size10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+)
+\c@part=\count167
+\c@section=\count168
+\c@subsection=\count169
+\c@subsubsection=\count170
+\c@paragraph=\count171
+\c@subparagraph=\count172
+\c@figure=\count173
+\c@table=\count174
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen134
+) (C:\Users\dario\AppData\Roaming\MiKTeX\2.9\tex/latex/adjustbox\adjustbox.sty
+Package: adjustbox 2019/01/04 v1.2 Adjusting TeX boxes (trim, clip, ...)
+ ("C:\Program Files\MiKTeX 2.9\tex/latex/xkeyval\xkeyval.sty"
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+ ("C:\Program Files\MiKTeX 2.9\tex/generic/xkeyval\xkeyval.tex" ("C:\Program Files\MiKTeX 2.9\tex/generic/xkeyval\xkvutils.tex"
+\XKV@toks=\toks15
+\XKV@tempa@toks=\toks16
+ ("C:\Program Files\MiKTeX 2.9\tex/generic/xkeyval\keyval.tex"))
+\XKV@depth=\count175
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)) (C:\Users\dario\AppData\Roaming\MiKTeX\2.9\tex/latex/adjustbox\adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back-ends (calc, etex, pgfmath)
+) (C:\Users\dario\AppData\Roaming\MiKTeX\2.9\tex/latex/adjustbox\trimclip.sty
+Package: trimclip 2018/04/08 v1.1 Trim and clip general TeX material
+ ("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\graphicx.sty"
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+ ("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\graphics.sty"
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+ ("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+) ("C:\Program Files\MiKTeX 2.9\tex/latex/graphics-cfg\graphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+ ("C:\Program Files\MiKTeX 2.9\tex/latex/graphics-def\pdftex.def"
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen135
+\Gin@req@width=\dimen136
+) (C:\Users\dario\AppData\Roaming\MiKTeX\2.9\tex/latex/collectbox\collectbox.sty
+Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
+\collectedbox=\box45
+)
+\tc@llx=\dimen137
+\tc@lly=\dimen138
+\tc@urx=\dimen139
+\tc@ury=\dimen140
+Package trimclip Info: Using driver 'tc-pdftex.def'.
+ (C:\Users\dario\AppData\Roaming\MiKTeX\2.9\tex/latex/adjustbox\tc-pdftex.def
+File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
+))
+\adjbox@Width=\dimen141
+\adjbox@Height=\dimen142
+\adjbox@Depth=\dimen143
+\adjbox@Totalheight=\dimen144
+\adjbox@pwidth=\dimen145
+\adjbox@pheight=\dimen146
+\adjbox@pdepth=\dimen147
+\adjbox@ptotalheight=\dimen148
+ (C:\Users\dario\AppData\Roaming\MiKTeX\2.9\tex/latex/ifoddpage\ifoddpage.sty
+Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
+\c@checkoddpage=\count176
+) (C:\Users\dario\AppData\Roaming\MiKTeX\2.9\tex/latex/varwidth\varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box46
+\sift@deathcycles=\count177
+\@vwid@loff=\dimen149
+\@vwid@roff=\dimen150
+)) ("C:\Program Files\MiKTeX 2.9\tex/latex/base\inputenc.sty"
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
+) ("C:\Program Files\MiKTeX 2.9\tex/generic/babel\babel.sty"
+Package: babel 2020/05/13 3.44 The Babel package
+ ("C:\Program Files\MiKTeX 2.9\tex/generic/babel\babel.def"
+File: babel.def 2020/05/13 3.44 Babel common definitions
+\babel@savecnt=\count178
+\U@D=\dimen151
+\l@babelnohyphens=\language79
+ ("C:\Program Files\MiKTeX 2.9\tex/generic/babel\txtbabel.def")
+\bbl@readstream=\read2
+)
+\bbl@dirlevel=\count179
+
+*************************************
+* Local config file bblopts.cfg used
+*
+("C:\Program Files\MiKTeX 2.9\tex/latex/arabi\bblopts.cfg"
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of babel
+) ("C:\Program Files\MiKTeX 2.9\tex/latex/babel-spanish\spanish.ldf"
+Language: spanish.ldf 2016/03/03 v5.0p Spanish support from the babel system
+\es@quottoks=\toks19
+\es@quotdepth=\count180
+Package babel Info: Making " an active character on input line 561.
+Package babel Info: Making . an active character on input line 662.
+Package babel Info: Making < an active character on input line 707.
+Package babel Info: Making > an active character on input line 707.
+)) ("C:\Program Files\MiKTeX 2.9\tex/latex/listings\listings.sty"
+\lst@mode=\count181
+\lst@gtempboxa=\box47
+\lst@token=\toks20
+\lst@length=\count182
+\lst@currlwidth=\dimen152
+\lst@column=\count183
+\lst@pos=\count184
+\lst@lostspace=\dimen153
+\lst@width=\dimen154
+\lst@newlines=\count185
+\lst@lineno=\count186
+\lst@maxwidth=\dimen155
+ ("C:\Program Files\MiKTeX 2.9\tex/latex/listings\lstmisc.sty"
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count187
+\lst@skipnumbers=\count188
+\lst@framebox=\box48
+) ("C:\Program Files\MiKTeX 2.9\tex/latex/listings\listings.cfg"
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+ ("C:\Program Files\MiKTeX 2.9\tex/latex/pdfpages\pdfpages.sty"
+Package: pdfpages 2021/03/06 v0.5t Insert pages of external PDF documents (AM)
+ ("C:\Program Files\MiKTeX 2.9\tex/latex/base\ifthen.sty"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+) ("C:\Program Files\MiKTeX 2.9\tex/latex/tools\calc.sty"
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count189
+\calc@Bcount=\count190
+\calc@Adimen=\dimen156
+\calc@Bdimen=\dimen157
+\calc@Askip=\skip49
+\calc@Bskip=\skip50
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count191
+\calc@Cskip=\skip51
+) ("C:\Program Files\MiKTeX 2.9\tex/latex/eso-pic\eso-pic.sty")
+\AM@pagewidth=\dimen158
+\AM@pageheight=\dimen159
+\AM@fboxrule=\dimen160
+ ("C:\Program Files\MiKTeX 2.9\tex/latex/pdfpages\pppdftex.def"
+File: pppdftex.def 2021/03/06 v0.5t Pdfpages driver for pdfTeX (AM)
+)
+\pdfpages@includegraphics@status=\count192
+\AM@pagebox=\box49
+\AM@global@opts=\toks21
+\AM@pagecnt=\count193
+\AM@toc@title=\toks22
+\c@AM@survey=\count194
+\AM@templatesizebox=\box50
+) ("C:\Program Files\MiKTeX 2.9\tex/latex/pythontex\pythontex.sty"
+Package: pythontex 2021/06/06 v0.18 execute and typeset Python code and other languages
+ ("C:\Program Files\MiKTeX 2.9\tex/latex/fvextra\fvextra.sty"
+Package: fvextra 2019/02/04 v1.4 fvextra - extensions and patches for fancyvrb
+ ("C:\Program Files\MiKTeX 2.9\tex/latex/etoolbox\etoolbox.sty"
+Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count195
+) (C:\Users\dario\AppData\Roaming\MiKTeX\2.9\tex/latex/fancyvrb\fancyvrb.sty
+Package: fancyvrb 2020/05/03 v3.6 verbatim text (tvz,hv)
+\FV@CodeLineNo=\count196
+\FV@InFile=\read3
+\FV@TabBox=\box51
+\c@FancyVerbLine=\count197
+\FV@StepNumber=\count198
+\FV@OutFile=\write3
+) (C:\Users\dario\AppData\Roaming\MiKTeX\2.9\tex/latex/upquote\upquote.sty
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verbatim
+) ("C:\Program Files\MiKTeX 2.9\tex/latex/lineno\lineno.sty"
+Package: lineno 2005/11/02 line numbers on paragraphs v4.41
+\linenopenalty=\count199
+\output=\toks23
+\linenoprevgraf=\count266
+\linenumbersep=\dimen161
+\linenumberwidth=\dimen162
+\c@linenumber=\count267
+\c@pagewiselinenumber=\count268
+\c@LN@truepage=\count269
+\c@internallinenumber=\count270
+\c@internallinenumbers=\count271
+\quotelinenumbersep=\dimen163
+\bframerule=\dimen164
+\bframesep=\dimen165
+\bframebox=\box52
+LaTeX Info: Redefining \\ on input line 3056.
+)
+\c@FV@TrueTabGroupLevel=\count272
+\c@FV@TrueTabCounter=\count273
+\FV@TabBox@Group=\box53
+\FV@TmpLength=\skip52
+\c@FV@HighlightLinesStart=\count274
+\c@FV@HighlightLinesStop=\count275
+\FV@LoopCount=\count276
+\FV@NCharsBox=\box54
+\FV@BreakIndent=\dimen166
+\FV@BreakIndentNChars=\count277
+\FV@BreakSymbolSepLeft=\dimen167
+\FV@BreakSymbolSepLeftNChars=\count278
+\FV@BreakSymbolSepRight=\dimen168
+\FV@BreakSymbolSepRightNChars=\count279
+\FV@BreakSymbolIndentLeft=\dimen169
+\FV@BreakSymbolIndentLeftNChars=\count280
+\FV@BreakSymbolIndentRight=\dimen170
+\FV@BreakSymbolIndentRightNChars=\count281
+\c@FancyVerbLineBreakLast=\count282
+\FV@LineBox=\box55
+\FV@LineIndentBox=\box56
+\FV@LineWidth=\dimen171
+) ("C:\Program Files\MiKTeX 2.9\tex/latex/xstring\xstring.sty" ("C:\Program Files\MiKTeX 2.9\tex/generic/xstring\xstring.tex"
+\integerpart=\count283
+\decimalpart=\count284
+)
+Package: xstring 2019/02/06 v1.83 String manipulations (CT)
+) ("C:\Program Files\MiKTeX 2.9\tex/latex/pgfopts\pgfopts.sty"
+Package: pgfopts 2014/07/10 v2.1a LaTeX package options with pgfkeys
+ ("C:\Program Files\MiKTeX 2.9\tex/latex/pgf/utilities\pgfkeys.sty" ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/utilities\pgfkeys.code.tex"
+\pgfkeys@pathtoks=\toks24
+\pgfkeys@temptoks=\toks25
+ ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/utilities\pgfkeysfiltered.code.tex"
+\pgfkeys@tmptoks=\toks26
+)))
+\pgfopts@list@add@a@toks=\toks27
+\pgfopts@list@add@b@toks=\toks28
+) ("C:\Program Files\MiKTeX 2.9\tex/latex/newfloat\newfloat.sty"
+Package: newfloat 2019/09/02 v1.1l Defining new floating environments (AR)
+) ("C:\Program Files\MiKTeX 2.9\tex/latex/currfile\currfile.sty"
+Package: currfile 2020/09/29 v0.7d Provides the file path elements of the current input file
+ (C:\Users\dario\AppData\Roaming\MiKTeX\2.9\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+ (C:\Users\dario\AppData\Roaming\MiKTeX\2.9\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+) (C:\Users\dario\AppData\Roaming\MiKTeX\2.9\tex/generic/kvsetkeys\kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)) ("C:\Program Files\MiKTeX 2.9\tex/latex/filehook\filehook.sty"
+Package: filehook 2020/09/29 v0.8a Hooks for input files
+ ("C:\Program Files\MiKTeX 2.9\tex/latex/filehook\filehook-2019.sty"
+Package: filehook-2019 2020/09/29 v0.8a Hooks for input files
+))
+\c@currfiledepth=\count285
+)
+\pytx@codefile=\write4
+\openout4 = `main.pytxcode'.
+
+\c@pytx@FancyVerbLineTemp=\count286
+\c@pytx@py@default@default=\count287
+\c@pytx@pycon@default@default=\count288
+\c@pytx@sympy@default@default=\count289
+\c@pytx@sympycon@default@default=\count290
+\c@pytx@pylab@default@default=\count291
+\c@pytx@pylabcon@default@default=\count292
+) ("C:\Program Files\MiKTeX 2.9\tex/latex/listingsutf8\listingsutf8.sty"
+Package: listingsutf8 2019-12-10 v1.5 Allow UTF-8 in listings input (HO)
+ ("C:\Program Files\MiKTeX 2.9\tex/latex/pdftexcmds\pdftexcmds.sty"
+Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO)
+ (C:\Users\dario\AppData\Roaming\MiKTeX\2.9\tex/generic/infwarerr\infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+) ("C:\Program Files\MiKTeX 2.9\tex/generic/iftex\iftex.sty"
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+) (C:\Users\dario\AppData\Roaming\MiKTeX\2.9\tex/generic/stringenc\stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
+ (C:\Users\dario\AppData\Roaming\MiKTeX\2.9\tex/generic/pdfescape\pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+))) ("C:\Program Files\MiKTeX 2.9\tex/latex/listings\lstlang1.sty"
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+) ("C:\Program Files\MiKTeX 2.9\tex/latex/xcolor\xcolor.sty"
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+ ("C:\Program Files\MiKTeX 2.9\tex/latex/graphics-cfg\color.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+ ("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\dvipsnam.def"
+File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
+) ("C:\Program Files\MiKTeX 2.9\tex/latex/xcolor\svgnam.def"
+File: svgnam.def 2016/05/11 v2.12 Predefined colors according to SVG 1.1 (UK)
+)) (C:\Users\dario\AppData\Roaming\MiKTeX\2.9\tex/latex/enumitem\enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\enitkv@toks@=\toks29
+\labelindent=\skip53
+\enit@outerparindent=\dimen172
+\enit@toks=\toks30
+\enit@inbox=\box57
+\enit@count@id=\count293
+\enitdp@description=\count294
+) ("C:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amsmath.sty"
+Package: amsmath 2020/01/20 v2.17e AMS math features
+\@mathmargin=\skip54
+
+For additional information on amsmath, use the `?' option.
+("C:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amstext.sty"
+Package: amstext 2000/06/29 v2.01 AMS text
+ ("C:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks31
+\ex@=\dimen173
+)) ("C:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen174
+) ("C:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amsopn.sty"
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count295
+LaTeX Info: Redefining \frac on input line 227.
+\uproot@=\count296
+\leftroot@=\count297
+LaTeX Info: Redefining \overline on input line 389.
+\classnum@=\count298
+\DOTSCASE@=\count299
+LaTeX Info: Redefining \ldots on input line 486.
+LaTeX Info: Redefining \dots on input line 489.
+LaTeX Info: Redefining \cdots on input line 610.
+\Mathstrutbox@=\box58
+\strutbox@=\box59
+\big@size=\dimen175
+LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
+\macc@depth=\count300
+\c@MaxMatrixCols=\count301
+\dotsspace@=\muskip16
+\c@parentequation=\count302
+\dspbrk@lvl=\count303
+\tag@help=\toks32
+\row@=\count304
+\column@=\count305
+\maxfields@=\count306
+\andhelp@=\toks33
+\eqnshift@=\dimen176
+\alignsep@=\dimen177
+\tagshift@=\dimen178
+\tagwidth@=\dimen179
+\totwidth@=\dimen180
+\lineht@=\dimen181
+\@envbody=\toks34
+\multlinegap=\skip55
+\multlinetaggap=\skip56
+\mathdisplay@stack=\toks35
+LaTeX Info: Redefining \[ on input line 2859.
+LaTeX Info: Redefining \] on input line 2860.
+) ("C:\Program Files\MiKTeX 2.9\tex/latex/subfigure\subfigure.sty"
+Package: subfigure 2002/07/30 v2.1.4 subfigure package
+\subfigtopskip=\skip57
+\subfigcapskip=\skip58
+\subfigcaptopadj=\dimen182
+\subfigbottomskip=\skip59
+\subfigcapmargin=\dimen183
+\subfiglabelskip=\skip60
+\c@subfigure=\count307
+\c@lofdepth=\count308
+\c@subtable=\count309
+\c@lotdepth=\count310
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+("C:\Program Files\MiKTeX 2.9\tex/latex/subfigure\subfigure.cfg")
+\subfig@top=\skip61
+\subfig@bottom=\skip62
+) (C:\Users\dario\AppData\Roaming\MiKTeX\2.9\tex/latex/booktabs\booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen184
+\lightrulewidth=\dimen185
+\cmidrulewidth=\dimen186
+\belowrulesep=\dimen187
+\belowbottomsep=\dimen188
+\aboverulesep=\dimen189
+\abovetopsep=\dimen190
+\cmidrulesep=\dimen191
+\cmidrulekern=\dimen192
+\defaultaddspace=\dimen193
+\@cmidla=\count311
+\@cmidlb=\count312
+\@aboverulesep=\dimen194
+\@belowrulesep=\dimen195
+\@thisruleclass=\count313
+\@lastruleclass=\count314
+\@thisrulewidth=\dimen196
+) (C:\Users\dario\AppData\Roaming\MiKTeX\2.9\tex/latex/caption\caption.sty
+Package: caption 2020/05/10 v3.4j Customizing captions (AR)
+ (C:\Users\dario\AppData\Roaming\MiKTeX\2.9\tex/latex/caption\caption3.sty
+Package: caption3 2020/05/10 v1.11 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 61.
+\captionmargin=\dimen197
+\captionmargin@=\dimen198
+\captionwidth=\dimen199
+\caption@tempdima=\dimen256
+\caption@indent=\dimen257
+\caption@parindent=\dimen258
+\caption@hangindent=\dimen259
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count315
+\c@continuedfloat=\count316
+Package caption Info: listings package is loaded.
+Package caption Info: subfigure package is loaded.
+) ("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\amsfonts.sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+) ("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\amssymb.sty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+) ("C:\Program Files\MiKTeX 2.9\tex/latex/was\gensymb.sty"
+Package: gensymb 2003/07/02 v1.0 (WaS)
+) ("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\lscape.sty"
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+) ("C:\Program Files\MiKTeX 2.9\tex/latex/hyperref\hyperref.sty"
+Package: hyperref 2020-05-15 v7.00e Hypertext links for LaTeX
+ (C:\Users\dario\AppData\Roaming\MiKTeX\2.9\tex/generic/kvdefinekeys\kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+) (C:\Users\dario\AppData\Roaming\MiKTeX\2.9\tex/latex/hycolor\hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+) (C:\Users\dario\AppData\Roaming\MiKTeX\2.9\tex/latex/letltxmacro\letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+) (C:\Users\dario\AppData\Roaming\MiKTeX\2.9\tex/latex/auxhook\auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+\@linkdim=\dimen260
+\Hy@linkcounter=\count317
+\Hy@pagecounter=\count318
+ ("C:\Program Files\MiKTeX 2.9\tex/latex/hyperref\pd1enc.def"
+File: pd1enc.def 2020-05-15 v7.00e Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+) (C:\Users\dario\AppData\Roaming\MiKTeX\2.9\tex/generic/intcalc\intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+) (C:\Users\dario\AppData\Roaming\MiKTeX\2.9\tex/generic/etexcmds\etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count319
+Package hyperref Info: Hyper figures OFF on input line 4464.
+Package hyperref Info: Link nesting OFF on input line 4469.
+Package hyperref Info: Hyper index ON on input line 4472.
+Package hyperref Info: Plain pages OFF on input line 4479.
+Package hyperref Info: Backreferencing OFF on input line 4484.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4717.
+\c@Hy@tempcnt=\count320
+ ("C:\Program Files\MiKTeX 2.9\tex/latex/url\url.sty"
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5076.
+\XeTeXLinkMargin=\dimen261
+ (C:\Users\dario\AppData\Roaming\MiKTeX\2.9\tex/generic/bitset\bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+ (C:\Users\dario\AppData\Roaming\MiKTeX\2.9\tex/generic/bigintcalc\bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
+))
+\Fld@menulength=\count321
+\Field@Width=\dimen262
+\Fld@charsize=\dimen263
+Package hyperref Info: Hyper figures OFF on input line 6347.
+Package hyperref Info: Link nesting OFF on input line 6352.
+Package hyperref Info: Hyper index ON on input line 6355.
+Package hyperref Info: backreferencing OFF on input line 6362.
+Package hyperref Info: Link coloring OFF on input line 6367.
+Package hyperref Info: Link coloring with OCG OFF on input line 6372.
+Package hyperref Info: PDF/A mode OFF on input line 6377.
+LaTeX Info: Redefining \ref on input line 6417.
+LaTeX Info: Redefining \pageref on input line 6421.
+ (C:\Users\dario\AppData\Roaming\MiKTeX\2.9\tex/generic/atbegshi\atbegshi.sty
+Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
+)
+\Hy@abspage=\count322
+\c@Item=\count323
+\c@Hfootnote=\count324
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+ ("C:\Program Files\MiKTeX 2.9\tex/latex/hyperref\hpdftex.def"
+File: hpdftex.def 2020-05-15 v7.00e Hyperref driver for pdfTeX
+ (C:\Users\dario\AppData\Roaming\MiKTeX\2.9\tex/latex/atveryend\atveryend.sty
+Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
+)
+\Fld@listcount=\count325
+\c@bookmark@seq@number=\count326
+ (C:\Users\dario\AppData\Roaming\MiKTeX\2.9\tex/latex/rerunfilecheck\rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+ (C:\Users\dario\AppData\Roaming\MiKTeX\2.9\tex/generic/uniquecounter\uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 286.
+)
+\Hy@SectionHShift=\skip63
+) (C:\Users\dario\AppData\Roaming\MiKTeX\2.9\tex/latex/ulem\ulem.sty
+\UL@box=\box60
+\UL@hyphenbox=\box61
+\UL@skip=\skip64
+\UL@hook=\toks36
+\UL@height=\dimen264
+\UL@pe=\count327
+\UL@pixel=\dimen265
+\ULC@box=\box62
+Package: ulem 2019/11/18
+\ULdepth=\dimen266
+) ("C:\Program Files\MiKTeX 2.9\tex/latex/algorithms\algorithm.sty"
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating environment
+ (C:\Users\dario\AppData\Roaming\MiKTeX\2.9\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count328
+\float@exts=\toks37
+\float@box=\box63
+\@float@everytoks=\toks38
+\@floatcapt=\box64
+)
+\@float@every@algorithm=\toks39
+\c@algorithm=\count329
+) ("C:\Program Files\MiKTeX 2.9\tex/latex/algorithms\algorithmic.sty"
+Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
+\c@ALC@unique=\count330
+\c@ALC@line=\count331
+\c@ALC@rem=\count332
+\c@ALC@depth=\count333
+\ALC@tlm=\skip65
+\algorithmicindent=\skip66
+) ("C:\Program Files\MiKTeX 2.9\tex/latex/tools\indentfirst.sty"
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+) (C:\Users\dario\AppData\Roaming\MiKTeX\2.9\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ ("C:\Program Files\MiKTeX 2.9\tex/generic/iftex\ifvtex.sty"
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count334
+\Gm@cntv=\count335
+\c@Gm@tempcnt=\count336
+\Gm@bindingoffset=\dimen267
+\Gm@wd@mp=\dimen268
+\Gm@odd@mp=\dimen269
+\Gm@even@mp=\dimen270
+\Gm@layoutwidth=\dimen271
+\Gm@layoutheight=\dimen272
+\Gm@layouthoffset=\dimen273
+\Gm@layoutvoffset=\dimen274
+\Gm@dimlist=\toks40
+ (C:\Users\dario\AppData\Roaming\MiKTeX\2.9\tex/latex/geometry\geometry.cfg))
+
+Package geometry Warning: Over-specification in `h'-direction.
+    `width' (597.50787pt) is ignored.
+
+
+Package geometry Warning: Over-specification in `v'-direction.
+    `height' (845.04684pt) is ignored.
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/fancyhdr\fancyhdr.sty"
+Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footers
+\f@nch@headwidth=\skip67
+\f@nch@O@elh=\skip68
+\f@nch@O@erh=\skip69
+\f@nch@O@olh=\skip70
+\f@nch@O@orh=\skip71
+\f@nch@O@elf=\skip72
+\f@nch@O@erf=\skip73
+\f@nch@O@olf=\skip74
+\f@nch@O@orf=\skip75
+) ("C:\Program Files\MiKTeX 2.9\tex/latex/l3backend\l3backend-pdfmode.def"
+File: l3backend-pdfmode.def 2020-05-05 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count337
+\l__pdf_internal_box=\box65
+) (main.aux
+LaTeX Info: Redefining \. on input line 25.
+LaTeX Info: Redefining \% on input line 25.
+
+
+LaTeX Warning: Label `fig:fig2' multiply defined.
+
+)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+ ("C:\Program Files\MiKTeX 2.9\tex/context/base/mkii\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count338
+\scratchdimen=\dimen275
+\scratchbox=\box66
+\nofMPsegments=\count339
+\nofMParguments=\count340
+\everyMPshowfont=\toks41
+\MPscratchCnt=\count341
+\MPscratchDim=\dimen276
+\MPnumerator=\count342
+\makeMPintoPDFobject=\count343
+\everyMPtoPDFconversion=\toks42
+) ("C:\Program Files\MiKTeX 2.9\tex/latex/epstopdf-pkg\epstopdf-base.sty"
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+)
+LaTeX Info: Redefining \. on input line 58.
+LaTeX Info: Redefining \% on input line 58.
+ ("C:\Program Files\MiKTeX 2.9\tex/latex/base\textcomp.sty"
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+)
+\c@lstlisting=\count344
+ ("C:\Program Files\MiKTeX 2.9\tex/latex/pdflscape\pdflscape.sty"
+Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+)
+Package newfloat Info: `float' package detected.
+
+No file pythontex-files-main/main.pytxmcr.
+Run PythonTeX to create it.
+Package newfloat Info: New float `listing' with options `fileext=lopytx' on input line 58.
+\c@listing=\count345
+Package newfloat Info: float type `listing'=16 on input line 58.
+\c@lopytxdepth=\count346
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: End \AtBeginDocument code.
+\symgns@font=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
+(Font)                  TS1/cmr/m/n --> TS1/cmr/b/n on input line 58.
+Package gensymb Info: Math companion symbols declared on input line 58.
+LaTeX Info: Redefining \degree on input line 58.
+LaTeX Info: Redefining \celsius on input line 58.
+Package gensymb Info: Using text companion symbols for \degree, \celsius and \perthousand on input line 58.
+LaTeX Info: Redefining \ohm on input line 58.
+Package gensymb Info: Using \textohm for \ohm on input line 58.
+Package gensymb Info: Using \textmu for \micro on input line 58.
+\AtBeginShipoutBox=\box67
+Package hyperref Info: Link coloring OFF on input line 58.
+("C:\Program Files\MiKTeX 2.9\tex/latex/hyperref\nameref.sty"
+Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
+ (C:\Users\dario\AppData\Roaming\MiKTeX\2.9\tex/latex/refcount\refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+) (C:\Users\dario\AppData\Roaming\MiKTeX\2.9\tex/generic/gettitlestring\gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count347
+)
+LaTeX Info: Redefining \ref on input line 58.
+LaTeX Info: Redefining \pageref on input line 58.
+LaTeX Info: Redefining \nameref on input line 58.
+ (main.out) (main.out)
+\@outlinefile=\write5
+\openout5 = `main.out'.
+
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(56.9055pt, 483.69687pt, 56.9055pt)
+* v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=483.69687pt
+* \textheight=731.23584pt
+* \oddsidemargin=-15.36449pt
+* \evensidemargin=-15.36449pt
+* \topmargin=-52.36449pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=57.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+<Images/../Images/Logo_Fiuba2.png, id=95, 144.54pt x 144.54pt>
+File: Images/../Images/Logo_Fiuba2.png Graphic file (type png)
+<use Images/../Images/Logo_Fiuba2.png>
+Package pdftex.def Info: Images/../Images/Logo_Fiuba2.png  used on input line 73.
+(pdftex.def)             Requested size: 173.4471pt x 173.4471pt.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 77.
+("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 77.
+ ("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+
+LaTeX Font Warning: Font shape `TS1/cmr/m/sc' undefined
+(Font)              using `TS1/cmr/m/n' instead
+(Font)              for symbol `textordmasculine' on input line 94.
+
+[1
+
+{C:/Users/dario/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./Images/../Images/Logo_Fiuba2.png>]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 124.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@@underline' on input line 124.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\hbox' on input line 124.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mathsurround' on input line 124.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 124.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 124.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 132--133
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 134--139
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 140--150
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 140--150
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 140--150
+
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.182 
+       [1]
+Underfull \hbox (badness 10000) in paragraph at lines 183--187
+
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 194.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@@underline' on input line 194.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\hbox' on input line 194.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mathsurround' on input line 194.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 194.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 194.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 200.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@@underline' on input line 200.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\hbox' on input line 200.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mathsurround' on input line 200.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 200.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 200.
+
+
+Overfull \hbox (2.71461pt too wide) in paragraph at lines 204--205
+[]\OT1/cmr/m/n/10 Partiendo de la ecua-cion 1.1[], y apli-can-do la iden-ti-dad tri-go-nometri-ca $[](\OML/cmm/m/it/10  \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 \OT1/cmr/m/n/10 ) = [](\OML/cmm/m/it/10 \OT1/cmr/m/n/10 ) [](\OML/cmm/m/it/10 \OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10   []\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 \OT1/cmr/m/n/10 ) [](\OML/cmm/m/it/10 \OT1/cmr/m/n/10 )$: 
+ []
+
+[2] [3]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 348.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@@underline' on input line 348.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\hbox' on input line 348.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mathsurround' on input line 348.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 348.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 348.
+
+<Images/ejercicio_a_fft_log.png, id=163, 403.0257pt x 298.4751pt>
+File: Images/ejercicio_a_fft_log.png Graphic file (type png)
+<use Images/ejercicio_a_fft_log.png>
+Package pdftex.def Info: Images/ejercicio_a_fft_log.png  used on input line 353.
+(pdftex.def)             Requested size: 403.0247pt x 298.47437pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 354.
+See the caption package documentation for explanation.
+
+<Images/ejercicio_a_ecm_x_12armonicos.png, id=164, 392.667pt x 298.4751pt>
+File: Images/ejercicio_a_ecm_x_12armonicos.png Graphic file (type png)
+<use Images/ejercicio_a_ecm_x_12armonicos.png>
+Package pdftex.def Info: Images/ejercicio_a_ecm_x_12armonicos.png  used on input line 360.
+(pdftex.def)             Requested size: 392.66605pt x 298.47437pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 361.
+See the caption package documentation for explanation.
+
+[4 <./Images/ejercicio_a_fft_log.png>]
+Overfull \hbox (36.91545pt too wide) in paragraph at lines 368--393
+ [] 
+ []
+
+
+Overfull \hbox (445.54503pt too wide) in paragraph at lines 400--400
+[]    \OT1/cmtt/m/n/10 Valor Medio Enero (a_0):  3.1356599462365593 , Primer Armonico (a_1):  2.6293397521253157  Frecuencia Angular (w_1):  0.5067084925144828  Fase 1 (phi_1):  0.1522951793391947[] 
+ []
+
+
+Overfull \hbox (445.54503pt too wide) in paragraph at lines 400--400
+[]    \OT1/cmtt/m/n/10 Valor Medio marzo (a_0):  3.033045698924731 , Primer Armonico (a_1):  2.5921290112734927  Frecuencia Angular (w_1):  0.5067084925144828  Fase 1 (phi_1):  0.21275576895293635[] 
+ []
+
+<Images/aprox_enero_aprox_marzo.png, id=176, 386.1627pt x 301.3659pt>
+File: Images/aprox_enero_aprox_marzo.png Graphic file (type png)
+<use Images/aprox_enero_aprox_marzo.png>
+Package pdftex.def Info: Images/aprox_enero_aprox_marzo.png  used on input line 404.
+(pdftex.def)             Requested size: 386.16176pt x 301.36516pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 405.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 402--408
+[]$[]$ 
+ []
+
+[5 <./Images/ejercicio_a_ecm_x_12armonicos.png>]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 421.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@@underline' on input line 421.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\hbox' on input line 421.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mathsurround' on input line 421.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 421.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 421.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 425.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@@underline' on input line 425.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\hbox' on input line 425.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mathsurround' on input line 425.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 425.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 425.
+
+
+Overfull \hbox (172.54741pt too wide) in paragraph at lines 617--617
+[]\OT1/cmtt/m/n/10 #Esta funcion obtiene como entrada dos fechas en formato "AAAA/MM/DD HH:mm". En caso de invocarse vaca devuelve todo el set.[] 
+ []
+
+[6 <./Images/aprox_enero_aprox_marzo.png>]
+Overfull \hbox (340.54594pt too wide) in paragraph at lines 617--617
+[]        \OT1/cmtt/m/n/10 mask = ((alturas_mareas["DateTime"] <= datetime.strptime(fecha_fin,format)) & (alturas_mareas["DateTime"] >= datetime.strptime(fecha_inicio,format)))[] 
+ []
+
+
+Overfull \hbox (303.79626pt too wide) in paragraph at lines 617--617
+[]    \OT1/cmtt/m/n/10 #Debido al shifting, el armonico 0 se duplica, dado que el espectro se repite a partir de la posicion N+1, que se vuelve a copiar en la posicion 0[] 
+ []
+
+[7]
+Overfull \hbox (183.04732pt too wide) in paragraph at lines 617--617
+[]\OT1/cmtt/m/n/10 #t corresponde al array de tiempo. Este debe estar en la misma unidad que el tiempo de las muestras a partir se calculo la fft.[] 
+ []
+
+
+Overfull \hbox (162.0475pt too wide) in paragraph at lines 617--617
+[]\OT1/cmtt/m/n/10 #Esta funcion tabula el error cuadratico medio, segun la cantidad de armonicos utilizados para calcular la serie de fourier[] 
+ []
+
+
+Overfull \hbox (20.29874pt too wide) in paragraph at lines 617--617
+[]        \OT1/cmtt/m/n/10 serie_fourier_alturas_h = sf_altura(mediciones_fft,np.arange(len(mediciones)),indices_n)[] 
+ []
+
+[8] [9]
+Overfull \hbox (57.04842pt too wide) in paragraph at lines 650--650
+[]\OT1/cmtt/m/n/10 f.plot_log("ejercicio_a_fft_log",freq,np.abs(mediciones_alturas_fft),"Frecuencia [1/H]","Amplitud [m]")[] 
+ []
+
+
+Overfull \hbox (445.54503pt too wide) in paragraph at lines 650--650
+[]\OT1/cmtt/m/n/10 pd_ecm_x_n = f.obtener_error_cuadratico_segun_numero_muestras(numero_de_armonicos,mediciones_alturas,mediciones_alturas_fft,ecm_por_+str(numero_de_armonicos)+_armonicos.csv)[] 
+ []
+
+
+Overfull \hbox (445.54503pt too wide) in paragraph at lines 650--650
+[]\OT1/cmtt/m/n/10 f.plot("ejercicio_a_ecm_x_"+str(numero_de_armonicos)+"armonicos",np.arange(len(pd_ecm_x_n["ECM%"])),pd_ecm_x_n["ECM%"],"Numero de Armonicos","Error Cuadratico Medio Porcentual")[] 
+ []
+
+
+Overfull \hbox (219.797pt too wide) in paragraph at lines 650--650
+[]\OT1/cmtt/m/n/10 #Se decide que con los primeros 3 armonicos se comete un error del 30%, y para bajarlo a menos de 25 se necesitan mas de 10 armonicos.[] 
+ []
+
+
+Overfull \hbox (30.79865pt too wide) in paragraph at lines 676--676
+[]\OT1/cmtt/m/n/10 #y obtener los coeficientes de fourier a partir de las N armonicos elegidos del ejercicio anterior[] 
+ []
+
+
+Overfull \hbox (30.79865pt too wide) in paragraph at lines 701--701
+[]\OT1/cmtt/m/n/10 #y obtener los coeficientes de fourier a partir de las N armonicos elegidos del ejercicio anterior[] 
+ []
+
+[10]
+Overfull \hbox (9.79883pt too wide) in paragraph at lines 746--746
+[]\OT1/cmtt/m/n/10 #El objetivo de este ejercicio es analizar sub muestras y procesarlas segun un rango de fecha.[] 
+ []
+
+
+Overfull \hbox (99.04805pt too wide) in paragraph at lines 746--746
+[]    \OT1/cmtt/m/n/10 {"Descripcion":"Primer Semana de Enero" ,"sFechaInicio":"2019/01/01 00:00","sFechaFin":"2019/01/07 23:00"},[] 
+ []
+
+
+Overfull \hbox (104.298pt too wide) in paragraph at lines 746--746
+[]    \OT1/cmtt/m/n/10 {"Descripcion":"Segunda Semana de Enero" ,"sFechaInicio":"2019/01/08 00:00","sFechaFin":"2019/01/14 23:00"},[] 
+ []
+
+
+Overfull \hbox (62.29837pt too wide) in paragraph at lines 746--746
+[]    \OT1/cmtt/m/n/10 {"Descripcion":"Enero y Febrero" ,"sFechaInicio":"2019/01/01 00:00","sFechaFin":"2019/03/01 00:00"},[] 
+ []
+
+
+Overfull \hbox (51.79846pt too wide) in paragraph at lines 746--746
+[]    \OT1/cmtt/m/n/10 {"Descripcion":"Marzo y Abril" ,"sFechaInicio":"2019/01/01 00:00","sFechaFin":"2019/03/01 00:00"},[] 
+ []
+
+
+Overfull \hbox (57.04842pt too wide) in paragraph at lines 746--746
+[]    \OT1/cmtt/m/n/10 mediciones_alturas = f.leer_archivo_maine(fecha["sFechaInicio"],fecha["sFechaFin"])[Verified (m)][] 
+ []
+
+
+Overfull \hbox (298.54631pt too wide) in paragraph at lines 746--746
+[]    \OT1/cmtt/m/n/10 print("El E.C.M para el rango de fechas de "+fecha["sFechaInicio"]+" hasta "+fecha["sFechaFin"]+" con "+str(N_armonicos)+" armonicos es: ",ecm_n)[] 
+ []
+
+
+Overfull \hbox (309.04622pt too wide) in paragraph at lines 746--746
+[]    \OT1/cmtt/m/n/10 print("El E.C.M para el rango de fechas de "+fecha["sFechaInicio"]+" hasta "+fecha["sFechaFin"]+" con "+str(N_armonicos-1)+" armonicos es: ",ecm_n)[] 
+ []
+
+[11]
+Overfull \hbox (51.79846pt too wide) in paragraph at lines 827--827
+[]\OT1/cmtt/m/n/10 mediciones_alturas_enero = f.leer_archivo_maine("2019/01/01 00:00","2019/01/31 23:00")[Verified (m)][] 
+ []
+
+
+Overfull \hbox (51.79846pt too wide) in paragraph at lines 827--827
+[]\OT1/cmtt/m/n/10 mediciones_alturas_marzo = f.leer_archivo_maine("2019/03/01 00:00","2019/03/31 23:00")[Verified (m)][] 
+ []
+
+
+Overfull \hbox (519.04439pt too wide) in paragraph at lines 827--827
+[]\OT1/cmtt/m/n/10 parametros_enero = [np.abs(fft_enero[0]),np.abs(fft_enero[indices_armonicos_enero[1]]), indices_armonicos_enero[1] * (2*np.pi/n_alturas_enero),np.angle(fft_enero[indices_armonicos_enero[1]])][] 
+ []
+
+
+Overfull \hbox (519.04439pt too wide) in paragraph at lines 827--827
+[]\OT1/cmtt/m/n/10 parametros_marzo = [np.abs(fft_marzo[0]),np.abs(fft_marzo[indices_armonicos_marzo[1]]), indices_armonicos_marzo[1] * (2*np.pi/n_alturas_marzo),np.angle(fft_marzo[indices_armonicos_marzo[1]])][] 
+ []
+
+
+Overfull \hbox (529.5443pt too wide) in paragraph at lines 827--827
+[]\OT1/cmtt/m/n/10 print("Valor Medio Enero (a_0): ",parametros_enero[0],", Primer Armonico (a_1): ",parametros_enero[1]," Frecuencia Angular (w_1): ",parametros_enero[2], " Fase 1 (phi_1): ",parametros_enero[3])[] 
+ []
+
+
+Overfull \hbox (529.5443pt too wide) in paragraph at lines 827--827
+[]\OT1/cmtt/m/n/10 print("Valor Medio marzo (a_0): ",parametros_marzo[0],", Primer Armonico (a_1): ",parametros_marzo[1]," Frecuencia Angular (w_1): ",parametros_marzo[2], " Fase 1 (phi_1): ",parametros_marzo[3])[] 
+ []
+
+
+Overfull \hbox (62.29837pt too wide) in paragraph at lines 827--827
+[]\OT1/cmtt/m/n/10 print("diff SF vs aprox Enero", f.ECM(aprox_enero,sf_enero),f.ECM(aprox_enero,mediciones_alturas_enero))[] 
+ []
+
+
+Overfull \hbox (62.29837pt too wide) in paragraph at lines 827--827
+[]\OT1/cmtt/m/n/10 print("diff SF vs aprox Marzo", f.ECM(aprox_marzo,sf_marzo),f.ECM(aprox_marzo,mediciones_alturas_marzo))[] 
+ []
+
+[12]
+Overfull \hbox (41.29855pt too wide) in paragraph at lines 827--827
+[]\OT1/cmtt/m/n/10 plt.plot(np.arange(n_fft_enero),np.abs(fft_enero),b-,np.arange(n_fft_marzo),np.abs(fft_marzo),r)[] 
+ []
+
+
+Overfull \hbox (345.7959pt too wide) in paragraph at lines 874--874
+[]\OT1/cmtt/m/n/10 #En este ejercicio, las muestras del archivo Mar-del-plata.csv no son equiespaciadas y registran solo pleamares y bajamares. Y los registros estan en minutos.[] 
+ []
+
+
+Overfull \hbox (282.79645pt too wide) in paragraph at lines 874--874
+[]\OT1/cmtt/m/n/10 #Primero procesamos el archivo y obtenemos una version que ademas de tener las columnas de fecha y altura, se le agregan las columnas que guarden:[] 
+ []
+
+
+Overfull \hbox (30.79865pt too wide) in paragraph at lines 874--874
+[]\OT1/cmtt/m/n/10 #nuevamente queremos utilizar la funcion a_0 + a_1 cos(w_1 *t + phi_1) para aproximar estos datos.[] 
+ []
+
+
+Overfull \hbox (67.54832pt too wide) in paragraph at lines 874--874
+[]\OT1/cmtt/m/n/10 #en este caso, el conjunto de phi_i(x) = {1,cos(w_1*t),sen(w_1*t)} y queremos saber los c_i {a_0,a_1,b_1}[] 
+ []
+
+
+Overfull \hbox (309.04622pt too wide) in paragraph at lines 874--874
+[]\OT1/cmtt/m/n/10 #asumimos que w_1 es correspondiente a 2pi/Tpleamares, tambien podemos usar como dato que la pleamar ocurre cada 12 horas, entonces w_1 = 2pi / (12*60)[] 
+ []
+
+[13]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 911.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@@underline' on input line 911.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\hbox' on input line 911.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mathsurround' on input line 911.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 911.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 911.
+
+[14]
+Overfull \hbox (114.79791pt too wide) in paragraph at lines 956--956
+[]    \OT1/cmtt/m/n/10 {Descripcion: Primer Semana de Enero, sFechaInicio: 2019/01/01 00:00, sFechaFin: 2019/01/07 23:00}[] 
+ []
+
+
+Overfull \hbox (120.04787pt too wide) in paragraph at lines 956--956
+[]\OT1/cmtt/m/n/10 El E.C.M para el rango de fechas de 2019/01/01 00:00 hasta 2019/01/07 23:00 con 4 armonicos es:  1.2367958297155777[] 
+ []
+
+
+Overfull \hbox (120.04787pt too wide) in paragraph at lines 956--956
+[]\OT1/cmtt/m/n/10 El E.C.M para el rango de fechas de 2019/01/01 00:00 hasta 2019/01/07 23:00 con 3 armonicos es:  1.2659584466847664[] 
+ []
+
+
+Overfull \hbox (99.04805pt too wide) in paragraph at lines 956--956
+[]\OT1/cmtt/m/n/10 {Descripcion: Segunda Semana de Enero, sFechaInicio: 2019/01/08 00:00, sFechaFin: 2019/01/14 23:00}[] 
+ []
+
+
+Overfull \hbox (120.04787pt too wide) in paragraph at lines 956--956
+[]\OT1/cmtt/m/n/10 El E.C.M para el rango de fechas de 2019/01/08 00:00 hasta 2019/01/14 23:00 con 4 armonicos es:  1.4869772458332933[] 
+ []
+
+
+Overfull \hbox (114.79791pt too wide) in paragraph at lines 956--956
+[]\OT1/cmtt/m/n/10 El E.C.M para el rango de fechas de 2019/01/08 00:00 hasta 2019/01/14 23:00 con 3 armonicos es:  1.500698778195625[] 
+ []
+
+
+Overfull \hbox (57.04842pt too wide) in paragraph at lines 956--956
+[]\OT1/cmtt/m/n/10 {Descripcion: Enero y Febrero, sFechaInicio: 2019/01/01 00:00, sFechaFin: 2019/03/01 00:00}[] 
+ []
+
+
+Overfull \hbox (120.04787pt too wide) in paragraph at lines 956--956
+[]\OT1/cmtt/m/n/10 El E.C.M para el rango de fechas de 2019/01/01 00:00 hasta 2019/03/01 00:00 con 4 armonicos es:  0.6826298627212011[] 
+ []
+
+
+Overfull \hbox (120.04787pt too wide) in paragraph at lines 956--956
+[]\OT1/cmtt/m/n/10 El E.C.M para el rango de fechas de 2019/01/01 00:00 hasta 2019/03/01 00:00 con 3 armonicos es:  0.6696914537749843[] 
+ []
+
+
+Overfull \hbox (46.54851pt too wide) in paragraph at lines 956--956
+[]\OT1/cmtt/m/n/10 {Descripcion: Marzo y Abril, sFechaInicio: 2019/01/01 00:00, sFechaFin: 2019/03/01 00:00}[] 
+ []
+
+
+Overfull \hbox (120.04787pt too wide) in paragraph at lines 956--956
+[]\OT1/cmtt/m/n/10 El E.C.M para el rango de fechas de 2019/01/01 00:00 hasta 2019/03/01 00:00 con 4 armonicos es:  0.6826298627212011[] 
+ []
+
+
+Overfull \hbox (120.04787pt too wide) in paragraph at lines 956--956
+[]\OT1/cmtt/m/n/10 El E.C.M para el rango de fechas de 2019/01/01 00:00 hasta 2019/03/01 00:00 con 3 armonicos es:  0.6696914537749843[] 
+ []
+
+
+Overfull \hbox (424.54521pt too wide) in paragraph at lines 969--969
+[]\OT1/cmtt/m/n/10 Valor Medio Enero (a_0):  3.1356599462365593 , Primer Armonico (a_1):  2.6293397521253157  Frecuencia Angular (w_1):  0.5067084925144828  Fase 1 (phi_1):  0.1522951793391947[] 
+ []
+
+
+Overfull \hbox (424.54521pt too wide) in paragraph at lines 969--969
+[]\OT1/cmtt/m/n/10 Valor Medio marzo (a_0):  3.033045698924731 , Primer Armonico (a_1):  2.5921290112734927  Frecuencia Angular (w_1):  0.5067084925144828  Fase 1 (phi_1):  0.21275576895293635[] 
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 988.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@@underline' on input line 988.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\hbox' on input line 988.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mathsurround' on input line 988.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 988.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 988.
+
+[15]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1002.
+ [16]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1002.
+ (main.aux
+LaTeX Info: Redefining \. on input line 25.
+LaTeX Info: Redefining \% on input line 25.
+)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1002.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1002.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 47E4E8FE89278BC94C3D80F06DAAACE1;1278.
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 17218 strings out of 480795
+ 277024 string characters out of 2905358
+ 631384 words of memory out of 3000000
+ 32785 multiletter control sequences out of 15000+200000
+ 546927 words of font info for 79 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 57i,22n,96p,919b,516s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\dario\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk> <C:\Users\dario\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on main.pdf (17 pages, 1182651 bytes).
+PDF statistics:
+ 309 PDF objects out of 1000 (max. 8388607)
+ 77 named destinations out of 1000 (max. 500000)
+ 205 words of extra memory for PDF output out of 10000 (max. 10000000)
+
