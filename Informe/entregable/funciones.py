@@ -53,7 +53,7 @@ def procesar_archivo_mar_del_plata():
 
     alturas_mareas.to_csv(root_file+"/Mar-Del-Plata-Normalizado.csv")
 
-def procesar_archivo_mar_del_plata_normalizado():
+def leer_archivo_mar_del_plata_normalizado():
     return pd.read_csv(root_file+"/Mar-Del-Plata-Normalizado.csv")
 
 def fft_datos(datos):
@@ -160,6 +160,11 @@ def alturas_1(params,t):
 def alturas_1_f(params,w_1,t):
     return params[0] + params[1]*np.cos(w_1*t)- params[2]*np.sin(w_1*t)
     
+def alturas_1_g(t):
+    print(t)
+    params = [ 1.00839372 , 0.1493136 , -0.50259993]
+    w_1 = 0.008462076602440048
+    return params[0] + params[1]*np.cos(w_1*t)- params[2]*np.sin(w_1*t)
 
 def plot_log(name,x,y,x_label,y_label,show = False):
     plt.plot(x,y,'b-')

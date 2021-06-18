@@ -14,7 +14,7 @@ from matplotlib import pyplot as plt
 #es_pleamar: si es pleamar o bajamar
 
 f.procesar_archivo_mar_del_plata()
-alturas = f.procesar_archivo_mar_del_plata_normalizado()
+alturas = f.leer_archivo_mar_del_plata_normalizado()
 
 #luego podemos obtener, nuestro pares {x,y}
 
@@ -23,41 +23,21 @@ alturas = f.procesar_archivo_mar_del_plata_normalizado()
 #en este caso, el conjunto de phi_i(x) = {1,cos(w_1*t),sen(w_1*t)} y queremos saber los c_i {a_0,a_1,b_1}
 #asumimos que w_1 es correspondiente a 2pi/Tpleamares, tambien podemos usar como dato que la pleamar ocurre cada 12 horas, entonces w_1 = 2pi / (12*60)
 
-X = alturas['i_minutos']
+X = alturas['t_minutos']
 Y = alturas['altura']
 
-diferencias_pleamares =[]
-filter = alturas["es_pleamar"] == True
-tiempos_pleamares = alturas.where(filter,inplace=True)["t_minutos"]
+T_pleamar = sum(alturas["i_minutos"])/ (0.5*len(alturas["i_minutos"]))
 
-for pleamar in tiempos_pleamares:
-    print(pleamar)
-    if(pleamar.index == 0):
-        diferencias_pleamares.append(0)
-    
-    
-        
+w_1 = 2*np.pi / T_pleamar
 
-
-"""
-print(np.mean(alturas["altura"]))
-
-print(diffs_pleamares)
-T_mean = np.mean(diffs_pleamares)
-print(T_mean)
-w_1 = 2*np.pi / T_mean
-
-print(w_1)
-print(np.mean(Y))
+print("El valor estimado para la frecuencia w_1: ",w_1)
 
 c_i = f.calcular_coeficientes_c_i(X,Y,w_1)
 
-print(c_i)
+print("Coeficientes para calcular el modelo: ",c_i)
 modelo = f.alturas_1_f(c_i,w_1,Y)
+ECM_modelo = f.ECM(Y,modelo)
 
-ECM_modelo = f.ECM(X,modelo)
-
-print(ECM_modelo)
+print("Error Cuadrático Medio del Modelo: ",ECM_modelo)
 
 #print(alturas)
-"""
