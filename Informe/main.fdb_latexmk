@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1623988881 "c:/Users/dario/Documents/Facultad/Numerico/1C2021/TP1/Informe/main.tex" "main.pdf" "main" 1623988882
+["pdflatex"] 1623988881 "c:/Users/dario/Documents/Facultad/Numerico/1C2021/TP1/Informe/main.tex" "main.pdf" "main" 1623999680
   "../Images/Logo_Fiuba2.png" 1623238651 101745 79dbefebbed8b2cb6c363eb7ea2a9415 ""
   "C:/Program Files/MiKTeX 2.9/fonts/tfm/jknappen/ec/tcrm0500.tfm" 993062506 1452 d4e3b17acac08070a568f62f3c020c49 ""
   "C:/Program Files/MiKTeX 2.9/fonts/tfm/jknappen/ec/tcrm0600.tfm" 993062506 1456 d21918d95ca20f07aa266303b9a0a14c ""
@@ -154,8 +154,8 @@
   "main.out" 1623988882 366 a89297672e6e40d7a34bc6f8efd4a5b7 "pdflatex"
   "pythontex-files-main/main.pytxmcr" 0 -1 0 ""
   (generated)
+  "main.pdf"
   "main.log"
   "main.pytxcode"
   "main.aux"
   "main.out"
-  "main.pdf"
