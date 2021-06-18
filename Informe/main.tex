@@ -284,8 +284,28 @@ y tomando el valor $\omega_k = 1$:
 \end{equation}
 
 
-
-En uno de los items, utilizamos la ecuación \ref{eqn:eq_3} pero para un armónico:
+El el último item, se presenta una serie de datos ${x_i,y_i}$ que no estan equiespaciados, dejando el análisis de los términos de fourier fuera de utilidad, aunque claro podríamos 
+utilizar una interpolación y muestrar equidistantemente dicha interpolación, pero es un caso que podemos obviar si utilizamos diréctamente el método de cuadrados mínimos.
+Para ello utilizamos la ecuación \ref{eqn:eq_3} para un armónico:
+\begin{equation}\label{eq_12}
+    \begin{split}
+        altura_1(t) &= a_0 + a_1 \cos(\omega_1 t) + b_1 \sin(\omega_1 t)
+    \end{split}
+\end{equation}
+Reescribimos la ecuación en función de la definicion de \ref
+\begin{equation}\label{eq_13}
+    \begin{split}
+        altura_1(t) &= c_1 * \phi_1(t) + c_2 \phi_2(t) + c_3 \phi_3(t)
+    \end{split}
+\end{equation}
+Donde:
+\begin{equation}\label{eq_14}
+    \begin{split}
+        \phi_1(t) &= 1 \\
+        \phi_2(t) &= \cos(\omega_1 t)\\
+        \phi_3(t) &= \sin(\omega_1 t)\\
+    \end{split}
+\end{equation}
 
 
 
