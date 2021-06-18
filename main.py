@@ -24,6 +24,8 @@ def read_file():
     ]
 
 
+
+
 def store_fft_data(indices, absolutes, angles, output):
     output.writerow(["Indice", "Abs", "Angle"])
     for i in indices:

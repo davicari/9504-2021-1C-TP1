@@ -185,14 +185,13 @@ Para cumplir adecuadamente el objetivo propuesto se sugiere se realicen los sigu
 
 \section{\underline{Introducción}}
 
-En este trabajo práctico desarrollaremos la metodología para procesar datos de la realidad mediante la Transformada Rápida de Fourier ($FFT$), 
-aplicarlos a un modelo dado descartando la información menos relevante (Construcción de la Serie de Fourier a partir de los armónicos principales), 
-y obtener una caracterización del error cometido mediante el método de cuadrados mínimos.
-
+En este Trabajo Práctico, tenemos como objetivo utilizar el método de cuadrados mínimos para modelar la altura de las mareas en distintos puertos, en nuestro caso, el puerto de Maine, y el puerto de Mar del Plata.
+Ambos puertos registran las alturas de la marea, pero la diferencia es que en el primer caso, esta se registra de forma horaria, y en el segundo caso se registra solo para las pleamares y bajamares.
+Estos dos casos distintos nos harán utilizar distintas metodologías para hallar los modelos.
 
 \section{\underline{Desarrollo}}
 
-
+En el primer caso, el del puerto de Maine, procesamos el archivo .csv dado, y 
 
 Partiendo de la ecuación \ref*{eq_1}, y aplicando la identidad trigonométrica $ \cos(\alpha+\beta) = \cos(\alpha)\cos(\beta) - \sin(\alpha)\sin(\beta) $:
 
