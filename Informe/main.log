@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.6.3)  11 JUN 2021 19:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.6.3)  17 JUN 2021 22:24
 entering extended mode
 **c:/Users/dario/Documents/Facultad/Numerico/1C2021/TP1/Informe/main.tex
 (c:/Users/dario/Documents/Facultad/Numerico/1C2021/TP1/Informe/main.tex
@@ -519,7 +519,10 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 File: l3backend-pdfmode.def 2020-05-05 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count332
 \l__pdf_internal_box=\box62
-) (main.aux)
+) (main.aux
+LaTeX Info: Redefining \. on input line 24.
+LaTeX Info: Redefining \% on input line 24.
+)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 49.
@@ -600,6 +603,7 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 49.
 LaTeX Info: Redefining \pageref on input line 49.
 LaTeX Info: Redefining \nameref on input line 49.
+ (main.out) (main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
 
@@ -638,7 +642,7 @@ LaTeX Info: Redefining \nameref on input line 49.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<../Images/Logo_Fiuba2.png, id=3, 144.54pt x 144.54pt>
+<../Images/Logo_Fiuba2.png, id=35, 144.54pt x 144.54pt>
 File: ../Images/Logo_Fiuba2.png Graphic file (type png)
 <use ../Images/Logo_Fiuba2.png>
 Package pdftex.def Info: ../Images/Logo_Fiuba2.png  used on input line 64.
@@ -689,9 +693,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 126--131
  []
 
 
-LaTeX Warning: Reference `eqn:eq_1' on page 1 undefined on input line 132.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 132--141
 
  []
@@ -705,9 +706,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 132--141
 Underfull \hbox (badness 10000) in paragraph at lines 132--141
 
  []
-
-
-LaTeX Warning: Reference `eqn:eq_2' on page 1 undefined on input line 171.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
@@ -744,375 +742,183 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 191.
+(hyperref)                removing `math shift' on input line 193.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@@underline' on input line 191.
+(hyperref)                removing `\@@underline' on input line 193.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\hbox' on input line 191.
+(hyperref)                removing `\hbox' on input line 193.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mathsurround' on input line 191.
+(hyperref)                removing `\mathsurround' on input line 193.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 191.
+(hyperref)                removing `\z@' on input line 193.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 191.
+(hyperref)                removing `math shift' on input line 193.
 
 
-LaTeX Warning: Reference `eq_1' on page 2 undefined on input line 194.
-
-
-Overfull \hbox (0.79785pt too wide) in paragraph at lines 194--195
-[]\OT1/cmr/m/n/10 Partiendo de la ecua-cion [], y apli-can-do la iden-ti-dad tri-go-nometri-ca $[](\OML/cmm/m/it/10  \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 \OT1/cmr/m/n/10 ) = [](\OML/cmm/m/it/10 \OT1/cmr/m/n/10 ) [](\OML/cmm/m/it/10 \OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10   []\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 \OT1/cmr/m/n/10 ) [](\OML/cmm/m/it/10 \OT1/cmr/m/n/10 )$: 
+Overfull \hbox (2.71461pt too wide) in paragraph at lines 197--198
+[]\OT1/cmr/m/n/10 Partiendo de la ecua-cion 1.1[], y apli-can-do la iden-ti-dad tri-go-nometri-ca $[](\OML/cmm/m/it/10  \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 \OT1/cmr/m/n/10 ) = [](\OML/cmm/m/it/10 \OT1/cmr/m/n/10 ) [](\OML/cmm/m/it/10 \OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10   []\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 \OT1/cmr/m/n/10 ) [](\OML/cmm/m/it/10 \OT1/cmr/m/n/10 )$: 
  []
 
-
-c:/Users/dario/Documents/Facultad/Numerico/1C2021/TP1/Informe/main.tex:202: LaTeX Error: Bad math environment delimiter.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.202     \end{split}
-                     
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-c:/Users/dario/Documents/Facultad/Numerico/1C2021/TP1/Informe/main.tex:202: Missing } inserted.
-<inserted text> 
-                }
-l.202     \end{split}
-                     
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-c:/Users/dario/Documents/Facultad/Numerico/1C2021/TP1/Informe/main.tex:202: Missing { inserted.
-<inserted text> 
-                {
-l.202     \end{split}
-                     
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-c:/Users/dario/Documents/Facultad/Numerico/1C2021/TP1/Informe/main.tex:202: Missing $ inserted.
-<inserted text> 
-                $
-l.202     \end{split}
-                     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-c:/Users/dario/Documents/Facultad/Numerico/1C2021/TP1/Informe/main.tex:202: LaTeX Error: Bad math environment delimiter.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.202     \end{split}
-                     
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-c:/Users/dario/Documents/Facultad/Numerico/1C2021/TP1/Informe/main.tex:202: Missing } inserted.
-<inserted text> 
-                }
-l.202     \end{split}
-                     
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-c:/Users/dario/Documents/Facultad/Numerico/1C2021/TP1/Informe/main.tex:202: Missing { inserted.
-<inserted text> 
-                {
-l.202     \end{split}
-                     
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-c:/Users/dario/Documents/Facultad/Numerico/1C2021/TP1/Informe/main.tex:202: Missing $ inserted.
-<inserted text> 
-                $
-l.202     \end{split}
-                     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-Runaway argument?
- \frac {\delta EC}{\delta \hat {f_i}} &= 0 \\ &= \frac {\delta \Big (\ETC.
-c:/Users/dario/Documents/Facultad/Numerico/1C2021/TP1/Informe/main.tex:233: Paragraph ended before \split was complete.
-<to be read again> 
-                   \par 
-l.233 
-      
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-c:/Users/dario/Documents/Facultad/Numerico/1C2021/TP1/Informe/main.tex:233: Missing $ inserted.
-<inserted text> 
-                $
-l.233 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-c:/Users/dario/Documents/Facultad/Numerico/1C2021/TP1/Informe/main.tex:233: Missing \endgroup inserted.
-<inserted text> 
-                \endgroup 
-l.233 
-      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-c:/Users/dario/Documents/Facultad/Numerico/1C2021/TP1/Informe/main.tex:233: Missing \endgroup inserted.
-<inserted text> 
-                \endgroup 
-l.233 
-      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-c:/Users/dario/Documents/Facultad/Numerico/1C2021/TP1/Informe/main.tex:233: Display math should end with $$.
-<to be read again> 
-                   \par 
-l.233 
-      
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
-
-c:/Users/dario/Documents/Facultad/Numerico/1C2021/TP1/Informe/main.tex:234: Misplaced \crcr.
-\endsplit ->\crcr 
-                  \egroup \egroup \iftagsleft@ \@xp \lendsplit@ \else \@xp \...
-l.234     \end{split}
-                     
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-c:/Users/dario/Documents/Facultad/Numerico/1C2021/TP1/Informe/main.tex:234: Extra }, or forgotten \endgroup.
-\endsplit ->\crcr \egroup 
-                          \egroup \iftagsleft@ \@xp \lendsplit@ \else \@xp \...
-l.234     \end{split}
-                     
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-c:/Users/dario/Documents/Facultad/Numerico/1C2021/TP1/Informe/main.tex:234: Extra }, or forgotten \endgroup.
-\endsplit ->\crcr \egroup \egroup 
-                                  \iftagsleft@ \@xp \lendsplit@ \else \@xp \...
-l.234     \end{split}
-                     
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-
-c:/Users/dario/Documents/Facultad/Numerico/1C2021/TP1/Informe/main.tex:234: LaTeX Error: \begin{equation} on input line 229 ended by \end{split}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.234     \end{split}
-                     
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-c:/Users/dario/Documents/Facultad/Numerico/1C2021/TP1/Informe/main.tex:234: Missing $ inserted.
-<inserted text> 
-                $
-l.234     \end{split}
-                     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-c:/Users/dario/Documents/Facultad/Numerico/1C2021/TP1/Informe/main.tex:235: You can't use `\eqno' in math mode.
-\endmathdisplay@a ...\df@tag \@empty \else \veqno 
-                                                  \alt@tag \df@tag \fi \ifx ...
-l.235 \end{equation}
-                    
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-
-c:/Users/dario/Documents/Facultad/Numerico/1C2021/TP1/Informe/main.tex:235: LaTeX Error: \begin{document} ended by \end{equation}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.235 \end{equation}
-                    
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-c:/Users/dario/Documents/Facultad/Numerico/1C2021/TP1/Informe/main.tex:235: Missing $ inserted.
-<inserted text> 
-                $
-l.235 \end{equation}
-                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-c:/Users/dario/Documents/Facultad/Numerico/1C2021/TP1/Informe/main.tex:235: Extra \endgroup.
-<recently read> \endgroup 
-                          
-l.235 \end{equation}
-                    
-Things are pretty mixed up, but I think the worst is over.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 242.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@@underline' on input line 242.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\hbox' on input line 242.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mathsurround' on input line 242.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 242.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 242.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 245.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@@underline' on input line 245.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\hbox' on input line 245.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mathsurround' on input line 245.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 245.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 245.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 248.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@@underline' on input line 248.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\hbox' on input line 248.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mathsurround' on input line 248.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 248.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 248.
-
 [2]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 258.
- [3]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 258.
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 300.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@@underline' on input line 300.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\hbox' on input line 300.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mathsurround' on input line 300.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 300.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 300.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 321.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@@underline' on input line 321.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\hbox' on input line 321.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mathsurround' on input line 321.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 321.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 321.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 323.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@@underline' on input line 323.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\hbox' on input line 323.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mathsurround' on input line 323.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 323.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 323.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 325.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@@underline' on input line 325.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\hbox' on input line 325.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mathsurround' on input line 325.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 325.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 325.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 329.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@@underline' on input line 329.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\hbox' on input line 329.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mathsurround' on input line 329.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 329.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 329.
+
+[3]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 343.
+ [4]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 343.
  (main.aux
 LaTeX Info: Redefining \. on input line 24.
 LaTeX Info: Redefining \% on input line 24.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 258.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 258.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 343.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 343.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: A89297672E6E40D7A34BC6F8EFD4A5B7;366.
 
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  B7C81666B01EC25C583B82B48A8893BE;281.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 15398 strings out of 480795
- 246106 string characters out of 2905358
- 567253 words of memory out of 3000000
- 31077 multiletter control sequences out of 15000+200000
+ 15430 strings out of 480795
+ 246463 string characters out of 2905358
+ 568966 words of memory out of 3000000
+ 31093 multiletter control sequences out of 15000+200000
  546620 words of font info for 78 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 51i,22n,50p,903b,510s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 51i,22n,50p,903b,508s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\dario\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk> <C:\Users\dario\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (4 pages, 252373 bytes).
+Output written on main.pdf (5 pages, 266561 bytes).
 PDF statistics:
- 129 PDF objects out of 1000 (max. 8388607)
- 30 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 176 PDF objects out of 1000 (max. 8388607)
+ 42 named destinations out of 1000 (max. 500000)
+ 70 words of extra memory for PDF output out of 10000 (max. 10000000)
 

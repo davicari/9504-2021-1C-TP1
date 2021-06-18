@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1623448886 "c:/Users/dario/Documents/Facultad/Numerico/1C2021/TP1/Informe/main.tex" "main.pdf" "main" 1623448886
+["pdflatex"] 1623979499 "c:/Users/dario/Documents/Facultad/Numerico/1C2021/TP1/Informe/main.tex" "main.pdf" "main" 1623984130
   "../Images/Logo_Fiuba2.png" 1623238651 101745 79dbefebbed8b2cb6c363eb7ea2a9415 ""
   "C:/Program Files/MiKTeX 2.9/fonts/tfm/jknappen/ec/tcrm0500.tfm" 993062506 1452 d4e3b17acac08070a568f62f3c020c49 ""
   "C:/Program Files/MiKTeX 2.9/fonts/tfm/jknappen/ec/tcrm0600.tfm" 993062506 1456 d21918d95ca20f07aa266303b9a0a14c ""
@@ -149,13 +149,13 @@
   "C:/Users/dario/AppData/Roaming/MiKTeX/2.9/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1575571282 9715 b051d5b493d9fe5f4bc251462d039e5f ""
   "C:/Users/dario/AppData/Roaming/MiKTeX/2.9/tex/latex/ulem/ulem.sty" 1578651445 15682 94f55b803e160cf7fb6e4d77d07cfe1d ""
   "C:/Users/dario/AppData/Roaming/MiKTeX/2.9/tex/latex/upquote/upquote.sty" 1335534756 1088 c352a232e0e0bfae98e68b206e4febe5 ""
-  "c:/Users/dario/Documents/Facultad/Numerico/1C2021/TP1/Informe/main.tex" 1623448883 10926 157fbcd7de4501f9410fb3457229d140 ""
-  "main.aux" 1623448886 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
-  "main.out" 0 -1 0 "pdflatex"
+  "c:/Users/dario/Documents/Facultad/Numerico/1C2021/TP1/Informe/main.tex" 1623979506 13720 772a0cc331b5c9a5c347c9d07d967de5 ""
+  "main.aux" 1623979500 2739 674dba0c79a6e2fdda4d762c490a9452 "pdflatex"
+  "main.out" 1623979500 366 a89297672e6e40d7a34bc6f8efd4a5b7 "pdflatex"
   "pythontex-files-main/main.pytxmcr" 0 -1 0 ""
   (generated)
   "main.pytxcode"
-  "main.out"
-  "main.log"
-  "main.aux"
   "main.pdf"
+  "main.out"
+  "main.aux"
+  "main.log"

@@ -191,8 +191,14 @@ INPUT C:\Users\dario\AppData\Roaming\MiKTeX\2.9\tex\latex\refcount\refcount.sty
 INPUT C:\Users\dario\AppData\Roaming\MiKTeX\2.9\tex\latex\refcount\refcount.sty
 INPUT C:\Users\dario\AppData\Roaming\MiKTeX\2.9\tex\generic\gettitlestring\gettitlestring.sty
 INPUT C:\Users\dario\AppData\Roaming\MiKTeX\2.9\tex\generic\gettitlestring\gettitlestring.sty
-OUTPUT main.out
+INPUT main.out
+INPUT main.out
+INPUT main.out
+INPUT main.out
 OUTPUT main.pdf
+INPUT .\main.out
+INPUT .\main.out
+OUTPUT main.out
 INPUT ..\Images\Logo_Fiuba2.png
 INPUT ..\Images\Logo_Fiuba2.png
 INPUT ..\Images\Logo_Fiuba2.png
@@ -253,9 +259,9 @@ INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msam5.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\jknappen\ec\tcrm0500.tfm
-INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmbx10.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmtt10.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmti10.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmbx10.tfm
 INPUT main.aux
 INPUT .\main.out
 INPUT .\main.out
